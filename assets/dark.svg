@@ -118,6 +118,8 @@
           opacity=".35"/>
 
     </pattern>
+
+    
   <!-- Avatar Clip Path -->
 <clipPath id="avatarClip">
   <circle cx="233" cy="310" r="92"/>
