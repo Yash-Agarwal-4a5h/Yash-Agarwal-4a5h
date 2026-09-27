@@ -1,109 +1,3 @@
-<!-- # 👋 Hi, I'm Yash (Nayan) Agarwal
-
-<p align="center">
-  <img src="./assets/dark.svg"
-       alt="Animated developer profile banner for Yash Agarwal"
-       width="100%">
-</p>
-
-<h2 align="center">
-  Software Engineer • AI Engineer • Full Stack Developer
-</h2>
-
-<h3 align="center">
-  Final Year B.Tech Information Technology • JECRC Jaipur • Batch 2027
-</h3>
-
-<p align="center">
-
-Building AI-powered applications • Backend Systems • Full Stack Projects • DSA
-
-</p>
-
----
-
-## 🚀 About Me
-
-```yaml
-name: Yash (Nayan) Agarwal
-
-education:
-  college: JECRC Jaipur
-  degree: Bachelor of Technology
-  branch: Information Technology
-  graduation: 2027
-
-roles:
-  - Software Engineer
-  - AI Engineer
-  - Full Stack Developer
-
-currently_building:
-  - WasteCare AI
-  - ScamShield Voice AI
-  - Java Backend Projects
-
-currently_learning:
-  - Spring Boot
-  - Docker
-  - Azure Cloud
-  - System Design
-  - LLM Applications
-```
-
----
-
-## 💻 Tech Stack
-
-### Languages
-
-- C++
-- Java
-- Python
-- JavaScript
-- SQL
-
-### Frontend
-
-- React.js
-- HTML5
-- CSS3
-- Vite
-
-### Backend
-
-- Node.js
-- Express.js
-- REST APIs
-- JWT Authentication
-
-### Database
-
-- MongoDB
-- MySQL
-- Firebase
-
-### AI / ML
-
-- TensorFlow
-- Scikit-Learn
-- Pandas
-- OpenCV
-- NLP
-
-### Cloud & Tools
-
-- Azure
-- Docker
-- Git
-- GitHub
-- VS Code
-- Power BI
-
----
-
-For contribution guidance, see [CONTRIBUTING.md](./CONTRIBUTING.md). To report a vulnerability, follow [SECURITY.md](./SECURITY.md). This repository is licensed under the [MIT License](./LICENSE). -->
-
 # 👋 Hi, I'm Yash (Nayan) Agarwal
 
 <p align="center">
@@ -1114,5 +1008,9 @@ I'm interested in contributing to projects involving:
 ## 📈 GitHub Contribution Activity
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Agarwal-4a5h&theme=tokyo-night&hide_border=true"/>
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/output/activity-graph.svg"
+    alt="GitHub Activity Graph"
+  />
 </p>
