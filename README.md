@@ -1,13 +1,18 @@
 # 👋 Hi, I'm Yash (Nayan) Agarwal
 
 <p align="center">
-  <picture>
+  <!-- <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
     <img src="./assets/dark.svg"
          alt="Yash Agarwal GitHub Hero Banner"
          width="100%">
-  </picture>
+  </picture> -->
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg" />
+  <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/dark.svg" />
+</picture>
 </p>
 
 <h1 align="center">
@@ -62,39 +67,6 @@
 
 </p>
 
-## 🚀 Engineering Dashboard
-
-```yaml id="gysxxw"
-Name: Yash (Nayan) Agarwal
-
-Role:
-  - Software Engineer
-  - AI Engineer
-  - Full Stack Developer
-
-Education:
-  College: JECRC Jaipur
-  Degree: B.Tech Information Technology
-  Graduation: 2027
-
-Location:
-  Jaipur, Rajasthan, India
-
-Currently Building:
-  - WasteCare AI
-  - ScamShield Voice AI
-  - Java Backend Projects
-
-Learning:
-  - Spring Boot
-  - Docker
-  - Azure Cloud
-  - System Design
-  - Large Language Models
-
-Career Goal:
-  Software Development Engineer (SDE)
-```
 ## 💡 About Me
 
 I'm a Final Year Information Technology student passionate about designing
@@ -376,27 +348,14 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal
 ## 📊 GitHub Analytics Dashboard
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Yash-Agarwal-4a5h&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Agarwal-4a5h&theme=tokyonight&hide_border=true"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yash-Agarwal-4a5h&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800"/>
+
+  <img width="49%" src="https://streak-stats.demolab.com?user=Yash-Agarwal-4a5h&theme=tokyonight&hide_border=true&cache_seconds=1800"/>
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800"/>
 </p>
-
-
----
-
-## 📈 Contribution Activity
-
-<p align="center">
-
-<img width="100%"
-src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Agarwal-4a5h&theme=tokyo-night&hide_border=true"/>
-
-</p>
-
----
 
 ## 🐍 Contribution Snake
 
@@ -408,7 +367,7 @@ src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Agarwal
 
 ---
 
-## 🏆 GitHub Trophy Cabinet
+<!-- ## 🏆 GitHub Trophy Cabinet
 
 <p align="center">
 
@@ -417,7 +376,7 @@ src="https://github-profile-trophy.vercel.app/?username=Yash-Agarwal-4a5h&theme=
 
 </p>
 
----
+--- -->
 
 ## 💻 Coding Profiles
 
@@ -563,58 +522,6 @@ Python
 <td>🐳 Docker</td>
 </tr>
 </table>
-
----
-
-## 🖥 Development Environment
-
-```yaml
-OS:
-  Windows 11
-
-Editor:
-  VS Code
-
-Theme:
-  GitHub Dark Default
-
-Font:
-  JetBrains Mono
-
-Version Control:
-  Git + GitHub
-
-Terminal:
-  PowerShell
-```
-
----
-
-## ⚙ My Daily Workflow
-
-```text
-IDEA 💡
-   │
-   ▼
-Design UI 🎨
-   │
-   ▼
-Write Backend APIs ⚙
-   │
-   ▼
-Database Integration 🗄
-   │
-   ▼
-AI / ML Model 🤖
-   │
-   ▼
-Testing 🧪
-   │
-   ▼
-Deployment 🚀
-```
-
----
 
 ---
 
