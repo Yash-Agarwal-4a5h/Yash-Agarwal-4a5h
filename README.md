@@ -1104,10 +1104,8 @@ I'm interested in contributing to projects involving:
 
 ---
 
-## 📈 Activity Graph
+## 📈 GitHub Contribution Activity
 
 <p align="center">
-
-<img src="./activity-graph.svg"/>
-
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yash-Agarwal-4a5h&theme=tokyo-night&hide_border=true"/>
 </p>
