@@ -84,14 +84,7 @@ I'm actively preparing for Software Engineering roles for the 2027 hiring season
 
 ---
 
-### 🌱 Current Focus
 
-- Java + Spring Boot
-- React + Node.js
-- Machine Learning
-- Azure Cloud
-- System Design
-- REST APIs
 
 ## ⚙️ Tech Stack
 
