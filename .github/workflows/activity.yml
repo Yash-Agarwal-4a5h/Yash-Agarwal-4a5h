@@ -1,33 +1,32 @@
 name: GitHub Activity Graph
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
-
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
 
 jobs:
-
-  activity:
-
+  build:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Generate Activity Graph
-
-        uses: ashutosh00710/github-readme-activity-graph-action@main
-
+      - name: Generate GitHub Activity Graph
+        uses: Ashutosh00710/github-readme-activity-graph@main
         with:
-
-          github_username: Yash-Agarwal-4a5h
-
+          username: Yash-Agarwal-4a5h
           theme: github-dark
+          output_file: dist/activity-graph.svg
 
-          output_file: activity-graph.svg
-
+      - name: Deploy Activity Graph
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
