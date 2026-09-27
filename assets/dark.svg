@@ -118,7 +118,19 @@
           opacity=".35"/>
 
     </pattern>
+  <!-- Avatar Clip Path -->
+<clipPath id="avatarClip">
+  <circle cx="233" cy="310" r="92"/>
+</clipPath>
 
+<!-- Avatar Glow -->
+<filter id="avatarGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="8" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
   </defs>
 
   <!-- ===================================================== -->
@@ -1026,18 +1038,120 @@
 <!-- ===================================================== -->
 <!-- ASCII PORTRAIT -->
 <!-- ===================================================== -->
+<!-- 
+<g font-family="Courier New,monospace"
+   font-size="10"
+   fill="#67E8F9"
+   opacity=".92">
 
-<clipPath id="avatarClip">
-  <circle cx="233" cy="310" r="95"/>
-</clipPath>
+<text x="108" y="190">        ░░░▒▒▓▓████▓▓▒▒░░░</text>
+<text x="108" y="202">      ░▒▓██████████████▓▒░</text>
+<text x="108" y="214">    ░▓████████████████████▓░</text>
+<text x="108" y="226">   ▓███████▓▓▓▓▓▓██████████▓</text>
+<text x="108" y="238">  ██████▓░          ░▓███████</text>
+<text x="108" y="250"> █████▓      ◉    ◉    ▓█████</text>
+<text x="108" y="262"> █████      ▒▒▒  ▒▒▒     █████</text>
+<text x="108" y="274"> █████        ▄▄▄        █████</text>
+<text x="108" y="286"> █████      ╱██████╲     █████</text>
+<text x="108" y="298"> █████     │████████│    █████</text>
+<text x="108" y="310"> █████      ╲██████╱     █████</text>
+<text x="108" y="322"> █████         ██        █████</text>
+<text x="108" y="334">  █████      ░████░     █████</text>
+<text x="108" y="346">   █████▓             ▓█████</text>
+<text x="108" y="358">    ▓██████▓▓▓▓▓▓▓▓██████▓</text>
+<text x="108" y="370">      ▓████████████████▓</text>
+<text x="108" y="382">        ▓████████████▓</text>
+<text x="108" y="394">          ▓████████▓</text>
+<text x="108" y="406">            ▓████▓</text>
+<text x="108" y="418">              ▓▓</text>
+
+</g> -->
+
+<!-- ===================================================== -->
+<!-- PROFILE PHOTO -->
+<!-- ===================================================== -->
+
+<!-- Outer Neon Ring -->
+<circle
+    cx="233"
+    cy="310"
+    r="102"
+    fill="none"
+    stroke="#22D3EE"
+    stroke-width="5"
+    filter="url(#avatarGlow)">
+
+  <animate
+      attributeName="stroke"
+      values="#22D3EE;#7C3AED;#22D3EE"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Inner Ring -->
+<circle
+    cx="233"
+    cy="310"
+    r="96"
+    fill="none"
+    stroke="#38BDF8"
+    stroke-width="2"
+    opacity="0.8"/>
+
+<!-- YOUR PHOTO -->
 
 <image
-  href="https://github.com/Yash-Agarwal-4a5h.png"
-  x="138"
-  y="215"
-  width="190"
-  height="190"
-  clip-path="url(#avatarClip)"/>
+    href="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/main/assets/avatar.jpeg"
+    x="141"
+    y="218"
+    width="184"
+    height="184"
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#avatarClip)"/>
+<!-- Pulsing Border -->
+<circle
+    cx="233"
+    cy="310"
+    r="108"
+    fill="none"
+    stroke="#22D3EE"
+    stroke-width="1"
+    opacity="0.35">
+
+  <animate
+      attributeName="r"
+      values="108;115;108"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  <animate
+      attributeName="opacity"
+      values="0.2;0.8;0.2"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Online Status -->
+<circle
+    cx="305"
+    cy="382"
+    r="10"
+    fill="#22C55E"
+    stroke="#0F172A"
+    stroke-width="3">
+
+  <animate
+      attributeName="opacity"
+      values="1;0.4;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+</circle>
+<!-- YOUR PROFILE PHOTO -->
+
+
 <!-- ===================================================== -->
 <!-- MATRIX CODE RAIN -->
 <!-- ===================================================== -->
