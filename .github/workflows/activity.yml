@@ -16,14 +16,14 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Activity Graph
-        uses: ashutosh00710/github-readme-activity-graph@main
+      - name: Generate Activity Graph SVG
+        uses: Ashutosh00710/github-readme-activity-graph@v1.8.0
         with:
-          github_username: Yash-Agarwal-4a5h
+          username: Yash-Agarwal-4a5h
           theme: github-dark
           output_dir: output
 
-      - name: Commit generated SVG
+      - name: Commit SVG
         uses: EndBug/add-and-commit@v9
         with:
           add: "output/*.svg"
