@@ -108,12 +108,8 @@ For contribution guidance, see [CONTRIBUTING.md](./CONTRIBUTING.md). To report a
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"
-            srcset="./assets/dark.svg">
-
-    <source media="(prefers-color-scheme: light)"
-            srcset="./assets/light.svg">
-
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
     <img src="./assets/dark.svg"
          alt="Yash Agarwal GitHub Hero Banner"
          width="100%">
@@ -125,10 +121,8 @@ For contribution guidance, see [CONTRIBUTING.md](./CONTRIBUTING.md). To report a
 </h1>
 
 <p align="center">
-  Final Year B.Tech Information Technology
-  <br/>
-  Jaipur Engineering College & Research Centre (JECRC Jaipur)
-  <br/>
+  Final Year B.Tech Information Technology <br/>
+  Jaipur Engineering College & Research Centre (JECRC Jaipur) <br/>
   Batch of 2027
 </p>
 
@@ -140,7 +134,9 @@ For contribution guidance, see [CONTRIBUTING.md](./CONTRIBUTING.md). To report a
 <p align="center">
   Turning ideas into production-ready software 🚀
 </p>
+
 <p align="center">
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Yash-Agarwal-4a5h&label=PROFILE+VIEWS&style=for-the-badge)
 
@@ -465,7 +461,7 @@ Python • Streamlit • NLP
 
 ---
 
-# 📊 GitHub Analytics Dashboard
+<!-- # 📊 GitHub Analytics Dashboard
 
 <p align="center">
 
@@ -482,7 +478,18 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Agarwal-4a5h&th
 <img width="70%"
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true"/>
 
+</p> -->
+## 📊 GitHub Analytics Dashboard
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Yash-Agarwal-4a5h&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Agarwal-4a5h&theme=tokyonight&hide_border=true"/>
 </p>
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+
 
 ---
 
