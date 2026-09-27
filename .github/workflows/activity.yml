@@ -13,18 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Activity Graph SVG
-        uses: Ashutosh00710/github-readme-activity-graph@v1.2.4
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
         with:
           username: Yash-Agarwal-4a5h
-          theme: github-dark
-          output_dir: output
+          options: theme=tokyo-night&hide_border=true&area=true
+          output_path: dist/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit SVG
-        uses: EndBug/add-and-commit@v9
+      - name: Push Activity Graph to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          add: "output/*.svg"
-          message: "chore: update activity graph"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
