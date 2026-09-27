@@ -1,0 +1,22 @@
+name: Test GitHub Actions
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Hello GitHub Actions
+        run: |
+          echo "Hello Nayan!"
+          echo "GitHub Actions is working."
+          pwd
+          ls -la
