@@ -1085,3 +1085,31 @@ I'm interested in contributing to projects involving:
 </td>
 </tr>
 </table>
+
+## 🐍 Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/output/github-contribution-grid-snake-dark.svg"/>
+
+</p>
+
+---
+
+## 📊 GitHub Metrics
+
+<p align="center">
+
+<img src="./github-metrics.svg"/>
+
+</p>
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+
+<img src="./activity-graph.svg"/>
+
+</p>
