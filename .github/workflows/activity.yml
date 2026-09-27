@@ -1,0 +1,30 @@
+name: GitHub Activity Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Activity Graph
+        uses: ashutosh00710/github-readme-activity-graph@main
+        with:
+          github_username: Yash-Agarwal-4a5h
+          theme: github-dark
+          output_dir: output
+
+      - name: Commit generated SVG
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "output/*.svg"
+          message: "chore: update activity graph"
