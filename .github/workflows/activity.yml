@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Activity Graph SVG
-        uses: Ashutosh00710/github-readme-activity-graph@@v1.2.4
+        uses: Ashutosh00710/github-readme-activity-graph@v1.2.4
         with:
           username: Yash-Agarwal-4a5h
           theme: github-dark
