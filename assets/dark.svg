@@ -1,0 +1,1446 @@
+<svg
+    width="1180"
+    height="610"
+    viewBox="0 0 1180 610"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-label="GitHub profile banner for Yash Agarwal">
+
+  <!-- ===================================================== -->
+  <!-- DEFINITIONS -->
+  <!-- ===================================================== -->
+
+  <defs>
+
+    <!-- Background Gradient -->
+
+    <linearGradient id="backgroundGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%">
+
+      <stop offset="0%" stop-color="#020617">
+
+        <animate
+          attributeName="stop-color"
+          values="#020617;#111827;#020617"
+          dur="10s"
+          repeatCount="indefinite"/>
+
+      </stop>
+
+      <stop offset="100%" stop-color="#1E1B4B">
+
+        <animate
+          attributeName="stop-color"
+          values="#1E1B4B;#134E4A;#1E1B4B"
+          dur="10s"
+          repeatCount="indefinite"/>
+
+      </stop>
+
+    </linearGradient>
+
+    <!-- Glow Gradient -->
+
+    <radialGradient id="purpleGlow"
+                    cx="50%"
+                    cy="50%"
+                    r="60%">
+
+      <stop offset="0%"
+            stop-color="#7C3AED"
+            stop-opacity=".35"/>
+
+      <stop offset="60%"
+            stop-color="#22D3EE"
+            stop-opacity=".12"/>
+
+      <stop offset="100%"
+            stop-color="#000000"
+            stop-opacity="0"/>
+
+    </radialGradient>
+
+    <!-- Glass Blur -->
+
+    <filter id="glassBlur"
+            x="-20%"
+            y="-20%"
+            width="140%"
+            height="140%">
+
+      <feGaussianBlur
+          stdDeviation="12"
+          result="blur"/>
+
+      <feColorMatrix
+          type="matrix"
+          values="
+          1 0 0 0 0
+          0 1 0 0 0
+          0 0 1 0 0
+          0 0 0 .65 0"/>
+
+    </filter>
+
+    <!-- Glow -->
+
+    <filter id="cyanGlow"
+            x="-50%"
+            y="-50%"
+            width="200%"
+            height="200%">
+
+      <feGaussianBlur
+          stdDeviation="4"
+          result="coloredBlur"/>
+
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+
+    </filter>
+
+    <!-- Grid Pattern -->
+
+    <pattern id="gridPattern"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path
+          d="M40 0 V40 M0 40 H40"
+          stroke="#1E293B"
+          stroke-width=".6"
+          opacity=".35"/>
+
+    </pattern>
+
+  </defs>
+
+  <!-- ===================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ===================================================== -->
+
+  <rect
+      width="1180"
+      height="610"
+      rx="26"
+      fill="url(#backgroundGradient)"/>
+
+  <rect
+      width="1180"
+      height="610"
+      rx="26"
+      fill="url(#gridPattern)"
+      opacity=".35"/>
+
+  <!-- Purple Glow -->
+
+  <circle
+      cx="980"
+      cy="120"
+      r="280"
+      fill="url(#purpleGlow)">
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;-30 25;0 0"
+        dur="18s"
+        repeatCount="indefinite"/>
+
+  </circle>
+
+  <!-- Cyan Glow -->
+
+  <circle
+      cx="160"
+      cy="520"
+      r="260"
+      fill="#0891B2"
+      opacity=".08">
+
+    <animate
+        attributeName="opacity"
+        values=".04;.10;.04"
+        dur="9s"
+        repeatCount="indefinite"/>
+
+  </circle>
+  <!-- ===================================================== -->
+<!-- FLOATING PARTICLES -->
+<!-- ===================================================== -->
+
+<g opacity=".75">
+
+  <circle cx="140" cy="90" r="2.2" fill="#22D3EE">
+
+    <animateMotion
+        dur="16s"
+        repeatCount="indefinite"
+        path="M0 0 C40 50 60 80 20 160"/>
+
+    <animate
+        attributeName="opacity"
+        values="0;1;.3;1;0"
+        dur="16s"
+        repeatCount="indefinite"/>
+
+  </circle>
+
+  <circle cx="220" cy="160" r="1.5" fill="#7C3AED">
+
+    <animateMotion
+        dur="20s"
+        repeatCount="indefinite"
+        path="M0 0 C20 40 -20 120 60 200"/>
+
+  </circle>
+
+  <circle cx="850" cy="120" r="2" fill="#10B981">
+
+    <animateMotion
+        dur="18s"
+        repeatCount="indefinite"
+        path="M0 0 C-40 80 -60 160 -30 240"/>
+
+  </circle>
+
+  <circle cx="1030" cy="280" r="1.8" fill="#22D3EE">
+
+    <animateMotion
+        dur="14s"
+        repeatCount="indefinite"
+        path="M0 0 C30 -60 50 -120 0 -200"/>
+
+  </circle>
+
+</g>
+<!-- ===================================================== -->
+<!-- MAIN GLASS PANEL -->
+<!-- ===================================================== -->
+
+<rect
+    x="28"
+    y="28"
+    width="1124"
+    height="554"
+    rx="24"
+    fill="rgba(15,23,42,.35)"
+    stroke="#334155"
+    stroke-opacity=".5"
+    filter="url(#glassBlur)"/>
+
+<!-- Animated Border -->
+
+<rect
+    x="28"
+    y="28"
+    width="1124"
+    height="554"
+    rx="24"
+    fill="none"
+    stroke="#22D3EE"
+    stroke-opacity=".18">
+
+  <animate
+      attributeName="stroke-opacity"
+      values=".15;.4;.15"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+</rect>
+<!-- Terminal Header -->
+
+<rect
+    x="48"
+    y="48"
+    width="1084"
+    height="46"
+    rx="14"
+    fill="#0F172A"
+    stroke="#334155"/>
+
+<!-- macOS Buttons -->
+
+<circle cx="76" cy="71" r="6" fill="#EF4444"/>
+<circle cx="98" cy="71" r="6" fill="#FBBF24"/>
+<circle cx="120" cy="71" r="6" fill="#22C55E"/>
+
+<text
+    x="155"
+    y="77"
+    fill="#CBD5E1"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  nayan@developer:~    [ ONLINE ]
+
+</text>
+
+<circle cx="352" cy="71" r="4" fill="#22C55E">
+
+  <animate
+      attributeName="opacity"
+      values="1;.2;1"
+      dur="1.4s"
+      repeatCount="indefinite"/>
+
+</circle>
+<!-- LEFT PROFILE PANEL -->
+
+<rect
+    x="54"
+    y="110"
+    width="355"
+    height="445"
+    rx="20"
+    fill="#111827"
+    fill-opacity=".35"
+    stroke="#334155"/>
+
+<!-- Section Title -->
+
+<text
+    x="78"
+    y="145"
+    fill="#22D3EE"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  [ VISUAL.IDENTITY ]
+
+</text>
+
+<rect
+    x="88"
+    y="175"
+    width="290"
+    height="270"
+    rx="18"
+    fill="#020617"
+    stroke="#22D3EE"
+    stroke-opacity=".25"/>
+
+<!-- Scanline -->
+
+<rect
+    x="88"
+    y="175"
+    width="290"
+    height="4"
+    fill="#22D3EE"
+    opacity=".12">
+
+  <animate
+      attributeName="y"
+      values="175;445;175"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+</rect>
+<text
+    x="78"
+    y="480"
+    fill="#22C55E"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  ~/profile $
+
+</text>
+
+<text
+    x="160"
+    y="480"
+    fill="#F8FAFC"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  build --ship
+
+</text>
+
+<rect
+    x="260"
+    y="466"
+    width="8"
+    height="18"
+    fill="#22D3EE">
+
+  <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+
+</rect>
+<path
+    d="M40 565 L250 565"
+    stroke="#22D3EE"
+    stroke-width="2"
+    stroke-opacity=".35">
+
+  <animate
+      attributeName="stroke-opacity"
+      values=".15;.6;.15"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+</path>
+
+<path
+    d="M930 48 L1120 48"
+    stroke="#7C3AED"
+    stroke-width="2"
+    stroke-opacity=".4">
+
+  <animate
+      attributeName="stroke-opacity"
+      values=".2;.7;.2"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+</path>
+<!-- ===================================================== -->
+<!-- RIGHT SIDE : SYSTEM.INFO PANEL -->
+<!-- ===================================================== -->
+
+<rect
+    x="445"
+    y="110"
+    width="660"
+    height="445"
+    rx="20"
+    fill="#111827"
+    fill-opacity=".28"
+    stroke="#334155"
+    stroke-width="1.2"/>
+
+<!-- PANEL TITLE -->
+
+<text
+    x="470"
+    y="145"
+    fill="#22D3EE"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  [ SYSTEM.INFO ]
+
+</text>
+
+<!-- Animated Line -->
+
+<line
+    x1="470"
+    y1="160"
+    x2="1070"
+    y2="160"
+    stroke="#22D3EE"
+    stroke-opacity=".25"
+    stroke-width="1.2">
+
+  <animate
+      attributeName="stroke-opacity"
+      values=".1;.4;.1"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+</line>
+
+<!-- ===================================================== -->
+<!-- NAME -->
+<!-- ===================================================== -->
+
+<text
+    x="470"
+    y="205"
+    fill="#F8FAFC"
+    font-size="34"
+    font-weight="700"
+    font-family="ui-monospace,monospace">
+
+  Yash (Nayan) Agarwal
+
+</text>
+
+<text
+    x="470"
+    y="230"
+    fill="#64748B"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  Software Engineer • AI Engineer • Full Stack Developer
+
+</text>
+
+<!-- Glowing underline -->
+
+<rect
+    x="470"
+    y="240"
+    width="210"
+    height="2"
+    fill="#22D3EE"
+    opacity=".45">
+
+  <animate
+      attributeName="width"
+      values="50;210;50"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+</rect>
+
+<!-- ===================================================== -->
+<!-- ROLE ANIMATION -->
+<!-- ===================================================== -->
+
+<text
+    x="470"
+    y="285"
+    fill="#22D3EE"
+    font-size="16"
+    font-family="ui-monospace,monospace">
+
+  ROLE:
+
+</text>
+
+<!-- Software Engineer -->
+
+<text
+    x="540"
+    y="285"
+    fill="#FFFFFF"
+    font-size="16"
+    opacity="1"
+    font-family="ui-monospace,monospace">
+
+  Software Engineer
+
+  <animate
+      attributeName="opacity"
+      values="1;1;0;0;0"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+</text>
+
+<!-- AI Engineer -->
+
+<text
+    x="540"
+    y="285"
+    fill="#FFFFFF"
+    font-size="16"
+    opacity="0"
+    font-family="ui-monospace,monospace">
+
+  AI Engineer
+
+  <animate
+      attributeName="opacity"
+      values="0;0;1;1;0"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+</text>
+
+<!-- Full Stack -->
+
+<text
+    x="540"
+    y="285"
+    fill="#FFFFFF"
+    font-size="16"
+    opacity="0"
+    font-family="ui-monospace,monospace">
+
+  Full Stack Developer
+
+  <animate
+      attributeName="opacity"
+      values="0;0;0;0;1;1;0"
+      dur="9s"
+      repeatCount="indefinite"/>
+
+</text>
+
+<!-- Cursor -->
+
+<rect
+    x="725"
+    y="272"
+    width="8"
+    height="16"
+    fill="#22D3EE">
+
+  <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+
+</rect>
+
+<!-- ===================================================== -->
+<!-- INFORMATION GRID -->
+<!-- ===================================================== -->
+
+<text
+    x="470"
+    y="335"
+    fill="#64748B"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  EDUCATION
+
+</text>
+
+<text
+    x="630"
+    y="335"
+    fill="#F8FAFC"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  Final Year B.Tech Information Technology
+
+</text>
+
+<text
+    x="470"
+    y="365"
+    fill="#64748B"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  COLLEGE
+
+</text>
+
+<text
+    x="630"
+    y="365"
+    fill="#F8FAFC"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  JECRC Jaipur • Batch 2027
+
+</text>
+
+<text
+    x="470"
+    y="395"
+    fill="#64748B"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  LOCATION
+
+</text>
+
+<text
+    x="630"
+    y="395"
+    fill="#F8FAFC"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  Jaipur, Rajasthan 🇮🇳
+
+</text>
+
+<text
+    x="470"
+    y="425"
+    fill="#64748B"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  STATUS
+
+</text>
+
+<text
+    x="630"
+    y="425"
+    fill="#22C55E"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  OPEN TO SWE • AI INTERNSHIPS • 2027
+
+</text>
+
+<!-- STATUS DOT -->
+
+<circle
+    cx="610"
+    cy="420"
+    r="4"
+    fill="#22C55E">
+
+  <animate
+      attributeName="opacity"
+      values="1;.2;1"
+      dur="1.5s"
+      repeatCount="indefinite"/>
+
+</circle>
+<!-- ===================================================== -->
+<!-- TECH STACK PILLS -->
+<!-- ===================================================== -->
+
+<text
+    x="470"
+    y="470"
+    fill="#22D3EE"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  TECH.STACK
+
+</text>
+
+<!-- JAVA -->
+
+<rect
+    x="470"
+    y="490"
+    width="90"
+    height="28"
+    rx="14"
+    fill="#EA580C"
+    fill-opacity=".20"
+    stroke="#EA580C"/>
+
+<text
+    x="495"
+    y="508"
+    fill="#FED7AA"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  JAVA
+
+</text>
+
+<!-- REACT -->
+
+<rect
+    x="570"
+    y="490"
+    width="95"
+    height="28"
+    rx="14"
+    fill="#0891B2"
+    fill-opacity=".20"
+    stroke="#22D3EE"/>
+
+<text
+    x="593"
+    y="508"
+    fill="#BAE6FD"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  REACT
+
+</text>
+
+<!-- PYTHON -->
+
+<rect
+    x="675"
+    y="490"
+    width="105"
+    height="28"
+    rx="14"
+    fill="#2563EB"
+    fill-opacity=".20"
+    stroke="#60A5FA"/>
+
+<text
+    x="700"
+    y="508"
+    fill="#DBEAFE"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  PYTHON
+
+</text>
+
+<!-- AZURE -->
+
+<rect
+    x="790"
+    y="490"
+    width="95"
+    height="28"
+    rx="14"
+    fill="#0284C7"
+    fill-opacity=".20"
+    stroke="#38BDF8"/>
+
+<text
+    x="815"
+    y="508"
+    fill="#E0F2FE"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  AZURE
+
+</text>
+
+<!-- TENSORFLOW -->
+
+<rect
+    x="895"
+    y="490"
+    width="140"
+    height="28"
+    rx="14"
+    fill="#EA580C"
+    fill-opacity=".18"
+    stroke="#FB923C"/>
+
+<text
+    x="918"
+    y="508"
+    fill="#FFEDD5"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  TENSORFLOW
+
+</text>
+
+<!-- MONGODB -->
+
+<rect
+    x="470"
+    y="530"
+    width="120"
+    height="28"
+    rx="14"
+    fill="#16A34A"
+    fill-opacity=".20"
+    stroke="#22C55E"/>
+
+<text
+    x="492"
+    y="548"
+    fill="#DCFCE7"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  MONGODB
+
+</text>
+
+<!-- NODEJS -->
+
+<rect
+    x="605"
+    y="530"
+    width="105"
+    height="28"
+    rx="14"
+    fill="#166534"
+    fill-opacity=".20"
+    stroke="#22C55E"/>
+
+<text
+    x="630"
+    y="548"
+    fill="#DCFCE7"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  NODE.JS
+
+</text>
+
+<!-- DOCKER -->
+
+<rect
+    x="720"
+    y="530"
+    width="95"
+    height="28"
+    rx="14"
+    fill="#0EA5E9"
+    fill-opacity=".20"
+    stroke="#38BDF8"/>
+
+<text
+    x="744"
+    y="548"
+    fill="#E0F2FE"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  DOCKER
+
+</text>
+
+<!-- DSA -->
+
+<rect
+    x="825"
+    y="530"
+    width="70"
+    height="28"
+    rx="14"
+    fill="#7C3AED"
+    fill-opacity=".20"
+    stroke="#A855F7"/>
+
+<text
+    x="848"
+    y="548"
+    fill="#EDE9FE"
+    font-size="13"
+    font-family="ui-monospace,monospace">
+
+  DSA
+
+</text>
+<!-- ===================================================== -->
+<!-- FEATURED PROJECTS -->
+<!-- ===================================================== -->
+
+<text
+    x="905"
+    y="470"
+    fill="#22D3EE"
+    font-size="15"
+    font-family="ui-monospace,monospace">
+
+  FEATURED.PROJECTS
+
+</text>
+
+<!-- WasteCare -->
+
+<rect
+    x="905"
+    y="485"
+    width="180"
+    height="52"
+    rx="14"
+    fill="#052814"
+    fill-opacity=".35"
+    stroke="#22C55E"/>
+
+<text
+    x="920"
+    y="505"
+    fill="#DCFCE7"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  WasteCare AI
+
+</text>
+
+<text
+    x="920"
+    y="523"
+    fill="#86EFAC"
+    font-size="11"
+    font-family="ui-monospace,monospace">
+
+  React • Node • TensorFlow
+
+</text>
+
+<!-- ScamShield -->
+
+<rect
+    x="905"
+    y="545"
+    width="180"
+    height="52"
+    rx="14"
+    fill="#082F49"
+    fill-opacity=".35"
+    stroke="#22D3EE"/>
+
+<text
+    x="920"
+    y="565"
+    fill="#E0F2FE"
+    font-size="14"
+    font-family="ui-monospace,monospace">
+
+  ScamShield Voice AI
+
+</text>
+
+<text
+    x="920"
+    y="583"
+    fill="#7DD3FC"
+    font-size="11"
+    font-family="ui-monospace,monospace">
+
+  Voice AI • LLM • React
+
+</text>
+<!-- ===================================================== -->
+<!-- DECORATIVE PULSE -->
+<!-- ===================================================== -->
+
+<circle
+    cx="1080"
+    cy="92"
+    r="5"
+    fill="#22D3EE">
+
+  <animate
+      attributeName="r"
+      values="5;8;5"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+  <animate
+      attributeName="opacity"
+      values="1;.2;1"
+      dur="2s"
+      repeatCount="indefinite"/>
+
+</circle>
+<!-- ===================================================== -->
+<!-- ASCII PORTRAIT -->
+<!-- ===================================================== -->
+
+<g font-family="Courier New,monospace"
+   font-size="10"
+   fill="#67E8F9"
+   opacity=".92">
+
+<text x="108" y="190">        ░░░▒▒▓▓████▓▓▒▒░░░</text>
+<text x="108" y="202">      ░▒▓██████████████▓▒░</text>
+<text x="108" y="214">    ░▓████████████████████▓░</text>
+<text x="108" y="226">   ▓███████▓▓▓▓▓▓██████████▓</text>
+<text x="108" y="238">  ██████▓░          ░▓███████</text>
+<text x="108" y="250"> █████▓      ◉    ◉    ▓█████</text>
+<text x="108" y="262"> █████      ▒▒▒  ▒▒▒     █████</text>
+<text x="108" y="274"> █████        ▄▄▄        █████</text>
+<text x="108" y="286"> █████      ╱██████╲     █████</text>
+<text x="108" y="298"> █████     │████████│    █████</text>
+<text x="108" y="310"> █████      ╲██████╱     █████</text>
+<text x="108" y="322"> █████         ██        █████</text>
+<text x="108" y="334">  █████      ░████░     █████</text>
+<text x="108" y="346">   █████▓             ▓█████</text>
+<text x="108" y="358">    ▓██████▓▓▓▓▓▓▓▓██████▓</text>
+<text x="108" y="370">      ▓████████████████▓</text>
+<text x="108" y="382">        ▓████████████▓</text>
+<text x="108" y="394">          ▓████████▓</text>
+<text x="108" y="406">            ▓████▓</text>
+<text x="108" y="418">              ▓▓</text>
+
+</g>
+<!-- ===================================================== -->
+<!-- MATRIX CODE RAIN -->
+<!-- ===================================================== -->
+
+<g opacity=".18"
+   font-family="Courier New,monospace"
+   font-size="11"
+   fill="#22C55E">
+
+  <text x="92" y="175">
+    010101011001101010110010101010101
+    <animate attributeName="y"
+             values="175;445;175"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="135" y="160">
+    110011010101100101010010101010111
+    <animate attributeName="y"
+             values="160;450;160"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="182" y="180">
+    001101010101101011010101010101011
+    <animate attributeName="y"
+             values="180;460;180"
+             dur="9s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="230" y="150">
+    101010101001011010010101101010101
+    <animate attributeName="y"
+             values="150;455;150"
+             dur="11s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="280" y="170">
+    111001010101010100101010101001010
+    <animate attributeName="y"
+             values="170;470;170"
+             dur="8.5s"
+             repeatCount="indefinite"/>
+  </text>
+
+  <text x="320" y="165">
+    010101011001101010110010101010101
+    <animate attributeName="y"
+             values="165;445;165"
+             dur="9.8s"
+             repeatCount="indefinite"/>
+  </text>
+
+</g>
+<!-- ===================================================== -->
+<!-- STATUS DASHBOARD -->
+<!-- ===================================================== -->
+
+<text x="470"
+      y="590"
+      fill="#22D3EE"
+      font-size="15"
+      font-family="ui-monospace,monospace">
+
+  DEV.STATUS
+
+</text>
+
+<!-- STATUS CARD -->
+
+<rect x="470"
+      y="605"
+      width="180"
+      height="55"
+      rx="16"
+      fill="#052814"
+      fill-opacity=".35"
+      stroke="#22C55E"/>
+
+<circle cx="490"
+        cy="632"
+        r="5"
+        fill="#22C55E">
+
+  <animate attributeName="opacity"
+           values="1;.3;1"
+           dur="1.3s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+<text x="505"
+      y="637"
+      fill="#DCFCE7"
+      font-size="13"
+      font-family="ui-monospace,monospace">
+
+  AVAILABLE FOR INTERNSHIPS
+
+</text>
+
+<!-- AI CARD -->
+
+<rect x="670"
+      y="605"
+      width="180"
+      height="55"
+      rx="16"
+      fill="#082F49"
+      fill-opacity=".35"
+      stroke="#22D3EE"/>
+
+<text x="690"
+      y="625"
+      fill="#7DD3FC"
+      font-size="13"
+      font-family="ui-monospace,monospace">
+
+  BUILDING AI PRODUCTS
+
+</text>
+
+<text x="690"
+      y="642"
+      fill="#E0F2FE"
+      font-size="11"
+      font-family="ui-monospace,monospace">
+
+  WasteCare • ScamShield
+
+</text>
+
+<!-- LEARNING CARD -->
+
+<rect x="870"
+      y="605"
+      width="215"
+      height="55"
+      rx="16"
+      fill="#1E1B4B"
+      fill-opacity=".35"
+      stroke="#8B5CF6"/>
+
+<text x="888"
+      y="625"
+      fill="#DDD6FE"
+      font-size="13"
+      font-family="ui-monospace,monospace">
+
+  CURRENTLY LEARNING
+
+</text>
+
+<text x="888"
+      y="642"
+      fill="#C4B5FD"
+      font-size="11"
+      font-family="ui-monospace,monospace">
+
+  Spring Boot • Docker • Azure
+
+</text>
+<!-- ===================================================== -->
+<!-- MINI CONTRIBUTION GRAPH -->
+<!-- ===================================================== -->
+
+<text x="74"
+      y="560"
+      fill="#22D3EE"
+      font-size="13"
+      font-family="ui-monospace,monospace">
+
+  CONTRIBUTION.ACTIVITY
+
+</text>
+
+<g transform="translate(74,570) scale(.7)">
+
+  <rect x="0" y="0" width="12" height="12" rx="2" fill="#0F172A"/>
+  <rect x="16" y="0" width="12" height="12" rx="2" fill="#14532D"/>
+  <rect x="32" y="0" width="12" height="12" rx="2" fill="#16A34A"/>
+  <rect x="48" y="0" width="12" height="12" rx="2" fill="#22C55E"/>
+  <rect x="64" y="0" width="12" height="12" rx="2" fill="#4ADE80"/>
+  <rect x="80" y="0" width="12" height="12" rx="2" fill="#22C55E"/>
+  <rect x="96" y="0" width="12" height="12" rx="2" fill="#16A34A"/>
+
+  <rect x="0" y="16" width="12" height="12" rx="2" fill="#14532D"/>
+  <rect x="16" y="16" width="12" height="12" rx="2" fill="#22C55E"/>
+  <rect x="32" y="16" width="12" height="12" rx="2" fill="#4ADE80"/>
+  <rect x="48" y="16" width="12" height="12" rx="2" fill="#16A34A"/>
+  <rect x="64" y="16" width="12" height="12" rx="2" fill="#22C55E"/>
+  <rect x="80" y="16" width="12" height="12" rx="2" fill="#14532D"/>
+  <rect x="96" y="16" width="12" height="12" rx="2" fill="#4ADE80"/>
+
+</g>
+<!-- ===================================================== -->
+<!-- CIRCUIT LINES -->
+<!-- ===================================================== -->
+
+<path
+    d="M430 150 L450 150 L470 175 L520 175"
+    stroke="#22D3EE"
+    stroke-width="1.5"
+    stroke-opacity=".25"
+    fill="none"/>
+
+<circle cx="470"
+        cy="175"
+        r="3"
+        fill="#22D3EE">
+
+  <animate attributeName="r"
+           values="3;5;3"
+           dur="3s"
+           repeatCount="indefinite"/>
+
+</circle>
+
+<path
+    d="M430 350 L470 350 L490 380 L560 380"
+    stroke="#8B5CF6"
+    stroke-width="1.5"
+    stroke-opacity=".25"
+    fill="none"/>
+
+<circle cx="490"
+        cy="380"
+        r="3"
+        fill="#A855F7">
+
+  <animate attributeName="opacity"
+           values="1;.2;1"
+           dur="2.5s"
+           repeatCount="indefinite"/>
+
+</circle>
+<!-- ===================================================== -->
+<!-- FOOTER SOCIAL LINKS -->
+<!-- ===================================================== -->
+
+<line
+    x1="50"
+    y1="700"
+    x2="1120"
+    y2="700"
+    stroke="#334155"
+    stroke-width="1"/>
+
+<!-- GitHub -->
+
+<circle cx="540"
+        cy="725"
+        r="18"
+        fill="#111827"
+        stroke="#64748B"/>
+
+<text x="531"
+      y="731"
+      fill="#FFFFFF"
+      font-size="16"
+      font-family="Courier New,monospace">
+
+  GH
+
+</text>
+
+<!-- LinkedIn -->
+
+<circle cx="595"
+        cy="725"
+        r="18"
+        fill="#082F49"
+        stroke="#38BDF8"/>
+
+<text x="585"
+      y="731"
+      fill="#7DD3FC"
+      font-size="14"
+      font-family="Courier New,monospace">
+
+  in
+
+</text>
+
+<!-- Gmail -->
+
+<circle cx="650"
+        cy="725"
+        r="18"
+        fill="#3F1D1D"
+        stroke="#EF4444"/>
+
+<text x="640"
+      y="731"
+      fill="#FCA5A5"
+      font-size="13"
+      font-family="Courier New,monospace">
+
+  @
+
+</text>
+
+<!-- Portfolio -->
+
+<circle cx="705"
+        cy="725"
+        r="18"
+        fill="#052814"
+        stroke="#22C55E"/>
+
+<text x="695"
+      y="731"
+      fill="#86EFAC"
+      font-size="13"
+      font-family="Courier New,monospace">
+
+  WEB
+
+</text>
+<!-- ===================================================== -->
+<!-- FOOTER QUOTE -->
+<!-- ===================================================== -->
+
+<text
+    x="360"
+    y="760"
+    fill="#94A3B8"
+    font-size="15"
+    font-family="Courier New,monospace">
+
+  Building intelligent systems, one commit at a time.
+
+</text>
+
+<text
+    x="440"
+    y="785"
+    fill="#22D3EE"
+    font-size="12"
+    font-family="Courier New,monospace">
+
+  SOFTWARE ENGINEER • AI ENGINEER • BATCH 2027
+
+</text>
+<!-- ===================================================== -->
+<!-- SHINE EFFECT -->
+<!-- ===================================================== -->
+
+<path
+    d="M-200 0 L-80 0 L500 610 L380 610 Z"
+    fill="white"
+    opacity=".03">
+
+  <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="-400 0;900 0"
+      dur="14s"
+      repeatCount="indefinite"/>
+
+</path>
+<!-- ===================================================== -->
+<!-- VIGNETTE -->
+<!-- ===================================================== -->
+
+<radialGradient id="vignette"
+                cx="50%"
+                cy="50%"
+                r="80%">
+
+  <stop offset="60%"
+        stop-color="#000000"
+        stop-opacity="0"/>
+
+  <stop offset="100%"
+        stop-color="#000000"
+        stop-opacity=".45"/>
+
+</radialGradient>
+
+<rect width="1180"
+      height="610"
+      rx="26"
+      fill="url(#vignette)"
+      opacity=".35"/>
+</svg>

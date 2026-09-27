@@ -1,0 +1,45 @@
+name: GitHub Metrics Dashboard
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Generate Metrics SVG
+
+        uses: lowlighter/metrics@latest
+
+        with:
+
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          user: Yash-Agarwal-4a5h
+
+          template: classic
+
+          base: header, activity, community, repositories, metadata
+
+          config_timezone: Asia/Kolkata
+
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+
+          plugin_isocalendar: yes
+
+          plugin_followup: yes
+
+          plugin_achievements: yes
+
+          filename: github-metrics.svg

@@ -1,0 +1,36 @@
+name: Deploy SVG Assets
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Upload Assets
+
+        uses: actions/upload-artifact@v4
+
+        with:
+
+          name: github-assets
+
+          path: assets/
+
+      - name: Commit Updated Assets
+
+        uses: stefanzweifel/git-auto-commit-action@v5
+
+        with:
+          commit_message: "chore: update generated SVG assets"

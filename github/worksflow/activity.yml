@@ -1,0 +1,33 @@
+name: GitHub Activity Graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+  activity:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Generate Activity Graph
+
+        uses: ashutosh00710/github-readme-activity-graph-action@main
+
+        with:
+
+          github_username: Yash-Agarwal-4a5h
+
+          theme: github-dark
+
+          output_file: activity-graph.svg
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
