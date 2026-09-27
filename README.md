@@ -859,34 +859,6 @@ I'm interested in contributing to projects involving:
 </tr>
 </table>
 
-## ⚙ GitHub Automation
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 Automated Every Day
-
-- Contribution Snake
-- GitHub Metrics
-- Activity Graph
-- Profile Summary
-
-</td>
-
-<td width="50%">
-
-### 🔄 GitHub Actions
-
-- Snake Animation
-- Metrics Generator
-- README Refresh
-- Activity Update
-
-</td>
-</tr>
-</table>
-
 ## 🐍 Contribution Snake
 
 <p align="center">
