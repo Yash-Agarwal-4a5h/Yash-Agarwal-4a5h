@@ -484,20 +484,6 @@ Machine Learning • Python • Data Analysis
 
 ---
 
-
-
-## ❤️ Developer Philosophy
-
-> "Build software that solves real problems, write clean code, and keep learning every day."
-
-```java
-while (learning) {
-    build();
-    improve();
-    repeat();
-}
-```
-
 ---
 
 # 🌐 Let's Connect
