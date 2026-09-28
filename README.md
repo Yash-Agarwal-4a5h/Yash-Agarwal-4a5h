@@ -251,13 +251,7 @@ I'm actively preparing for Software Engineering roles for the 2027 hiring season
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800"/>
 </p>
 
-## 🐍 Contribution Snake
 
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/output/github-contribution-grid-snake-dark.svg"/>
-
-</p>
 
 ---
 
@@ -272,69 +266,61 @@ src="https://github-profile-trophy.vercel.app/?username=Yash-Agarwal-4a5h&theme=
 
 --- -->
 
-## 💻 Coding Profiles
+---
 
-<table>
+# <img src="https://img.icons8.com/fluency/48/source-code.png" width="34"/> Coding Profiles & Community
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&duration=2500&pause=1200&color=F59E0B&center=true&vCenter=true&width=650&lines=Competitive+Programming+%F0%9F%92%BB;DSA+%7C+LeetCode+%7C+Codeforces+%7C+HackerRank;Building+Problem+Solving+Skills+Every+Day" />
+</p>
+
+<table align="center">
 <tr>
 
 <td align="center" width="33%">
 
-### 🟨 LeetCode
-
-DSA Practice
-
-Problem Solving
-
-Daily Coding
-
 <a href="YOUR_LEETCODE_URL">
-
-<img src="https://img.shields.io/badge/View_Profile-F89F1B?style=for-the-badge&logo=leetcode&logoColor=white"/>
-
+<img src="https://cdn.simpleicons.org/leetcode/F89F1B" width="48"/>
 </a>
+
+### **LeetCode**
+
+<sub>DSA • Problem Solving • Daily Practice</sub>
 
 </td>
 
 <td align="center" width="33%">
-
-### 🔵 Codeforces
-
-Competitive Programming
-
-Contests
-
-Problem Solving
 
 <a href="YOUR_CODEFORCES_URL">
-
-<img src="https://img.shields.io/badge/View_Profile-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
-
+<img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="48"/>
 </a>
+
+### **Codeforces**
+
+<sub>Competitive Programming • Contests • Algorithms</sub>
 
 </td>
 
 <td align="center" width="33%">
 
-### 🟩 HackerRank
-
-Java
-
-SQL
-
-Python
-
 <a href="YOUR_HACKERRANK_URL">
-
-<img src="https://img.shields.io/badge/View_Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/>
-
+<img src="https://cdn.simpleicons.org/hackerrank/2EC866" width="48"/>
 </a>
+
+### **HackerRank**
+
+<sub>Java • SQL • Python • Certifications</sub>
 
 </td>
 
 </tr>
 </table>
-
----
+<!-- 
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-0EA5E9?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Goal-SDE%202027-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Practice-Daily%20Coding-orange?style=for-the-badge"/>
+</p> -->
 
 <!-- ## 🧠 DSA Progress Dashboard
 
@@ -484,33 +470,10 @@ Machine Learning • Python • Data Analysis
 
 ---
 
+
+
+
 ---
-
-# 🌐 Let's Connect
-
-<p align="center">
-
-<a href="https://github.com/Yash-Agarwal-4a5h">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-<a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:YOUR_EMAIL@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
-
-<a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/Portfolio-16A34A?style=for-the-badge&logo=googlechrome"/>
-</a>
-
-</p>
-
-> Always interested in Software Engineering, AI, Backend Development and Open Source collaborations.
-
-
 ## 🐍 Contribution Snake
 
 <p align="center">
@@ -540,6 +503,70 @@ Machine Learning • Python • Data Analysis
 
 </p>
 
-
+---
 
 ---
+
+# <img src="https://img.icons8.com/fluency/48/share.png" width="34"/> Let's Connect
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=20&duration=2500&pause=1200&color=22D3EE&center=true&vCenter=true&width=650&lines=Let's+Build+Something+Amazing+Together+%F0%9F%9A%80;Software+Engineering+%7C+AI+%7C+Backend+%7C+Open+Source" />
+</p>
+
+
+<table align="center">
+<tr>
+
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/github--v1.png"/><br>
+<b>GitHub</b><br>
+<sub>Open Source & Projects</sub>
+</td>
+
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/linkedin.png"/><br>
+<b>LinkedIn</b><br>
+<sub>Professional Network</sub>
+</td>
+
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/gmail-new.png"/><br>
+<b>Email</b><br>
+<sub>Internships & Collaboration</sub>
+</td>
+
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/48/domain.png"/><br>
+<b>Portfolio</b><br>
+<sub>Live Projects & Resume</sub>
+</td>
+
+</tr>
+</table>
+
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/Let's_Collaborate-22C55E?style=for-the-badge&logo=handshake&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <i>💙 Always interested in Software Engineering, AI, Backend Development, Cloud Computing, and Open Source collaborations.</i>
+</p>
+
+---
+
+
+
+
+
+
+
+
+
+
+
