@@ -444,7 +444,7 @@ Machine Learning • Python • Data Analysis
 <a href="https://github.com/Yash-Agarwal-4a5h" target="_blank">
   <img src="https://img.icons8.com/color/48/github--v1.png" width="70"/>
 </a>
-
+<br>
 <a href="https://github.com/Yash-Agarwal-4a5h" target="_blank">
   <b>GitHub</b>
 </a>
@@ -456,18 +456,19 @@ Machine Learning • Python • Data Analysis
 <a href="https://www.linkedin.com/in/yashagarwal-/" target="_blank">
   <img src="https://img.icons8.com/color/48/linkedin.png" width="70"/>
 </a>
-
+<br>
 <a href="https://www.linkedin.com/in/yashagarwal-/" target="_blank">
   <b>LinkedIn</b>
 </a>
 <br>
 <sub>Professional Network • Career Updates</sub>
 </td>
+
 <td align="center" valign="top" width="25%">
 <a href="mailto:yashag2327@gmail.com">
-  <img src="https://img.icons8.com/color/48/gmail-new.png" width="90"/>
+  <img src="https://img.icons8.com/color/48/gmail-new.png" width="70"/>
 </a>
-
+<br>
 <a href="mailto:yashag2327@gmail.com">
   <b>Gmail</b>
 </a>
@@ -477,9 +478,9 @@ Machine Learning • Python • Data Analysis
 
 <td align="center" valign="top" width="25%">
 <a href="YOUR_PORTFOLIO_URL" target="_blank">
-  <img src="https://img.icons8.com/color/48/domain.png" width="30"/>
+  <img src="https://img.icons8.com/color/48/domain.png" width="70"/>
 </a>
-
+<br>
 <a href="YOUR_PORTFOLIO_URL" target="_blank">
   <b>Portfolio</b>
 </a>
