@@ -300,62 +300,6 @@ src="https://github-profile-trophy.vercel.app/?username=Yash-Agarwal-4a5h&theme=
   <img src="https://img.shields.io/badge/Practice-Daily%20Coding-orange?style=for-the-badge"/>
 </p> -->
 
-<!-- ## 🧠 DSA Progress Dashboard
-
-<table>
-<tr>
-<td width="160">
-
-**Topic**
-
-</td>
-
-<td>
-
-**Progress**
-
-</td>
-</tr>
-
-<tr>
-<td>Arrays</td>
-<td>████████████ 100%</td>
-</tr>
-
-<tr>
-<td>Strings</td>
-<td>███████████░ 90%</td>
-</tr>
-
-<tr>
-<td>Linked Lists</td>
-<td>██████████░░ 85%</td>
-</tr>
-
-<tr>
-<td>Trees</td>
-<td>█████████░░░ 80%</td>
-</tr>
-
-<tr>
-<td>Graphs</td>
-<td>████████░░░░ 70%</td>
-</tr>
-
-<tr>
-<td>Dynamic Programming</td>
-<td>███████░░░░░ 60%</td>
-</tr>
-
-<tr>
-<td>System Design</td>
-<td>██████░░░░░░ 55%</td>
-</tr>
-
-</table>
-
-
---- -->
 
 ---
 ## 💼 Internship Experience
@@ -495,28 +439,51 @@ Machine Learning • Python • Data Analysis
 <table align="center">
 <tr>
 
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/github--v1.png"/><br>
-<b>GitHub</b><br>
-<sub>Open Source & Projects</sub>
+<td align="center" valign="top" width="25%">
+<a href="https://github.com/Yash-Agarwal-4a5h" target="_blank">
+  <img src="https://img.icons8.com/color/48/github--v1.png" width="70"/>
+</a>
+
+<a href="https://github.com/Yash-Agarwal-4a5h" target="_blank">
+  <b>GitHub</b>
+</a>
+<br>
+<sub>Open Source • Projects • Contributions</sub>
 </td>
 
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/linkedin.png"/><br>
-<b>LinkedIn</b><br>
-<sub>Professional Network</sub>
+<td align="center" valign="top" width="25%">
+<a href="https://www.linkedin.com/in/yashagarwal-/" target="_blank">
+  <img src="https://img.icons8.com/color/48/linkedin.png" width="70"/>
+</a>
+
+<a href="https://www.linkedin.com/in/yashagarwal-/" target="_blank">
+  <b>LinkedIn</b>
+</a>
+<br>
+<sub>Professional Network • Career Updates</sub>
+</td>
+<td align="center" valign="top" width="25%">
+<a href="mailto:yashag2327@gmail.com">
+  <img src="https://img.icons8.com/color/48/gmail-new.png" width="70"/>
+</a>
+
+<a href="mailto:yashag2327@gmail.com">
+  <b>Gmail</b>
+</a>
+<br>
+<sub>Internships • Collaboration • Contact</sub>
 </td>
 
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/gmail-new.png"/><br>
-<b>Email</b><br>
-<sub>Internships & Collaboration</sub>
-</td>
+<td align="center" valign="top" width="25%">
+<a href="YOUR_PORTFOLIO_URL" target="_blank">
+  <img src="https://img.icons8.com/color/48/domain.png" width="70"/>
+</a>
 
-<td align="center" width="25%">
-<img src="https://img.icons8.com/color/48/domain.png"/><br>
-<b>Portfolio</b><br>
-<sub>Live Projects & Resume</sub>
+<a href="YOUR_PORTFOLIO_URL" target="_blank">
+  <b>Portfolio</b>
+</a>
+<br>
+<sub>Live Projects • Resume • Experience</sub>
 </td>
 
 </tr>
@@ -537,14 +504,6 @@ Machine Learning • Python • Data Analysis
 </p>
 
 ---
-
-
-
-
-
-
-
-
 
 
 
