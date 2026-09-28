@@ -402,6 +402,7 @@ Machine Learning • Python • Data Analysis
   <img src="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
 </p>
 
+
 ---
 
 ## 📈 GitHub Contribution Activity
@@ -464,7 +465,7 @@ Machine Learning • Python • Data Analysis
 </td>
 <td align="center" valign="top" width="25%">
 <a href="mailto:yashag2327@gmail.com">
-  <img src="https://img.icons8.com/color/48/gmail-new.png" width="70"/>
+  <img src="https://img.icons8.com/color/48/gmail-new.png" width="90"/>
 </a>
 
 <a href="mailto:yashag2327@gmail.com">
@@ -476,7 +477,7 @@ Machine Learning • Python • Data Analysis
 
 <td align="center" valign="top" width="25%">
 <a href="YOUR_PORTFOLIO_URL" target="_blank">
-  <img src="https://img.icons8.com/color/48/domain.png" width="70"/>
+  <img src="https://img.icons8.com/color/48/domain.png" width="30"/>
 </a>
 
 <a href="YOUR_PORTFOLIO_URL" target="_blank">
@@ -504,6 +505,7 @@ Machine Learning • Python • Data Analysis
 </p>
 
 ---
+
 
 
 
