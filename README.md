@@ -9,45 +9,23 @@
          width="100%">
   </picture> -->
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-banner.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg" />
-  <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/github-banner.svg" />
+  <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/dark.svg" />
 </picture>
 </p>
 
 <h1 align="center">
   Software Engineer • AI Engineer • Full Stack Developer
 </h1>
+<!-- 
+  <p align="center">
+  ![Profile Views](https://komarev.com/ghpvc/?username=Yash-Agarwal-4a5h&label=PROFILE+VIEWS&style=for-the-badge)
+  ![Followers](https://img.shields.io/github/followers/Yash-Agarwal-4a5h?style=for-the-badge)
+  ![Stars](https://img.shields.io/github/stars/Yash-Agarwal-4a5h?style=for-the-badge)
+  ![Last Commit](https://img.shields.io/github/last-commit/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h?style=for-the-badge)
+  </p> -->
 
-<!-- <p align="center">
-  Final Year B.Tech Information Technology <br/>
-  Jaipur Engineering College & Research Centre (JECRC Jaipur) <br/>
-  Batch of 2027
-</p>
-
-<p align="center">
-  Passionate about AI, scalable backend engineering, cloud technologies,
-  and building impactful real-world applications.
-</p>
-
-<p align="center">
-  Turning ideas into production-ready software 🚀
-</p>
-
-<p align="center">
-
-
-![Profile Views](https://komarev.com/ghpvc/?username=Yash-Agarwal-4a5h&label=PROFILE+VIEWS&style=for-the-badge)
-
-![Followers](https://img.shields.io/github/followers/Yash-Agarwal-4a5h?style=for-the-badge)
-
-![Stars](https://img.shields.io/github/stars/Yash-Agarwal-4a5h?style=for-the-badge)
-
-![Last Commit](https://img.shields.io/github/last-commit/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h?style=for-the-badge)
-
-</p>
-
---- -->
 
 ## 💡 About Me
 
