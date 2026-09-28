@@ -257,7 +257,7 @@ src="https://github-profile-trophy.vercel.app/?username=Yash-Agarwal-4a5h&theme=
 
 <td align="center" width="33%">
 
-<a href="YOUR_LEETCODE_URL">
+<a href="https://leetcode.com/u/yash-agarwal-4a5h/">
 <img src="https://cdn.simpleicons.org/leetcode/F89F1B" width="48"/>
 </a>
 
@@ -269,7 +269,7 @@ src="https://github-profile-trophy.vercel.app/?username=Yash-Agarwal-4a5h&theme=
 
 <td align="center" width="33%">
 
-<a href="YOUR_CODEFORCES_URL">
+<a href="https://codeforces.com/profile/Yash_4a5h">
 <img src="https://cdn.simpleicons.org/codeforces/1F8ACB" width="48"/>
 </a>
 
@@ -523,7 +523,7 @@ Machine Learning • Python • Data Analysis
 </table>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/yashagarwal-">
     <img src="https://img.shields.io/badge/Let's_Collaborate-22C55E?style=for-the-badge&logo=handshake&logoColor=white"/>
   </a>
 </p>
