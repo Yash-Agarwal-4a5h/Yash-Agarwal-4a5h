@@ -9,9 +9,9 @@
          width="100%">
   </picture> -->
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-banner.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg" />
-  <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/dark.svg" />
+  <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/github-banner.svg" />
 </picture>
 </p>
 
