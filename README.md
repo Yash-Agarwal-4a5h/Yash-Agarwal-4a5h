@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Yash (Nayan) Agarwal
+# 👋 Hi, I'm Yash Agarwal
 
 <p align="center">
   <!-- <picture>
@@ -49,24 +49,6 @@
 
 ---
 
-<p align="center">
-
-![Java](https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge)
-
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge)
-
-![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge)
-
-![NodeJS](https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge)
-
-![TensorFlow](https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge)
-
-![Azure](https://img.shields.io/badge/AZURE-0078D4?style=for-the-badge)
-
-![MongoDB](https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge)
-
-</p>
-
 ## 💡 About Me
 
 I'm a Final Year Information Technology student passionate about designing
@@ -84,260 +66,179 @@ I'm actively preparing for Software Engineering roles for the 2027 hiring season
 
 ---
 
-
-
+---
 ## ⚙️ Tech Stack
 
-<table>
-
+<table align="center">
 <tr>
+<td width="50%" valign="top">
 
-<td align="center" width="120">
+### 💻 Programming Languages
 
-### Languages
+<img src="https://skillicons.dev/icons?i=java,python,cpp,js,mysql&perline=9"/>
 
-Java
-
-Python
-
-C++
-
-JavaScript
-
-SQL
-
-</td>
-
-<td align="center" width="120">
-
-### Frontend
-
-React.js
-
-HTML5
-
-CSS3
-
-Vite
-
-Responsive UI
+| Technology | Stack |
+|------------|-------|
+| ☕ Java | Core Java, OOP |
+| 🐍 Python | ML, AI, Automation |
+| ⚡ JavaScript | Frontend |
+| 💠 C++ | DSA & Problem Solving |
+| 🗃 SQL | MySQL Database |
 
 </td>
 
-<td align="center" width="120">
+<td width="50%" valign="top">
 
-### Backend
+### 🌐 Full Stack Development
 
-Node.js
+<img src="https://skillicons.dev/icons?i=react,html,css,vite,nodejs,express,spring,mongodb,firebase&perline=9"/>
 
-Express.js
-
-REST APIs
-
-JWT Auth
-
-Firebase
+| Technology | Stack |
+|------------|-------|
+| ⚛ React.js | UI Development |
+| 🟢 Node.js | Backend APIs |
+| 🚀 Spring Boot | Java Backend |
+| 🍃 MongoDB | NoSQL Database |
+| 🔥 Firebase | Authentication & Hosting |
 
 </td>
-
 </tr>
 
 <tr>
+<td width="50%" valign="top">
 
-<td align="center">
+### 🤖 AI • Machine Learning
 
-### Database
+<img src="https://skillicons.dev/icons?i=tensorflow,opencv,sklearn,pytorch&perline=4"/>
 
-MongoDB
-
-MySQL
-
-Firebase
-
-</td>
-
-<td align="center">
-
-### AI / ML
-
-TensorFlow
-
-Scikit-Learn
-
-Pandas
-
-OpenCV
-
-NLP
+| Technology | Stack |
+|------------|-------|
+| 🧠 TensorFlow | Deep Learning |
+| 📊 Scikit-Learn | ML Models |
+| 🐼 Pandas | Data Analysis |
+| 👁 OpenCV | Computer Vision |
+| 💬 NLP | Text Processing |
+| 🤖 LLMs & RAG | AI Applications |
 
 </td>
 
-<td align="center">
+<td width="50%" valign="top">
 
-### Cloud & Tools
+### ☁️ Cloud • DevOps • Tools
 
-Azure
+<img src="https://skillicons.dev/icons?i=azure,docker,git,github,vscode,postman&perline=6"/>
 
-Docker
-
-Git
-
-GitHub
-
-Power BI
+| Technology | Stack |
+|------------|-------|
+| ☁ Azure | Cloud Computing |
+| 🐳 Docker | Containerization |
+| 🌿 Git & GitHub | Version Control |
+| 📮 Postman | API Testing |
+| 💻 VS Code | Development IDE |
+| 📈 Power BI | Analytics Dashboard |
 
 </td>
-
 </tr>
-
-</table>
-
-## 🚀 Featured Projects
-
-<table>
-
 <tr>
+<td colspan="2" valign="top">
 
-<td width="50%">
-
-### 🌿 WasteCare AI
-
-AI-powered Medication Waste Management Platform.
-
-#### Features
-
-- React Dashboard
-- TensorFlow Prediction Model
-- Node.js Backend
-- MongoDB Database
-- Firebase Authentication
-- Power BI Dashboard
-
-**Tech**
-
-React • Node • MongoDB • TensorFlow • Firebase
-
-</td>
-
-<td width="50%">
-
-### 🛡 ScamShield Voice AI
-
-Voice Scam Detection System.
-
-#### Features
-
-- Speech Recognition
-- LLM Risk Analysis
-- Voice Classification
-- Fraud Detection Dashboard
-- Live Alert Interface
-
-**Tech**
-
-React • Python • LLM • NLP
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%">
-
-### 📊 Telecom Customer Churn Prediction
-
-Machine Learning classification system.
-
-#### Features
-
-- Data Cleaning
-- Feature Engineering
-- Random Forest
-- XGBoost
-- Customer Insights Dashboard
-
-**Tech**
-
-Python • Pandas • Scikit-Learn
-
-</td>
-
-<td width="50%">
-
-### 🎬 Hybrid Movie Recommendation
-
-Recommendation Engine using Collaborative + Content Filtering.
-
-#### Features
-
-- Similar Movies
-- Personalized Recommendations
-- Streamlit Web App
-- Dataset Visualization
-
-**Tech**
-
-Python • Streamlit • NLP
-
-</td>
-
-</tr>
-
-</table>
-
+### 🧠 Core Computer Science Fundamentals
 <p align="center">
-
-<a href="https://github.com/Yash-Agarwal-4a5h/WasteCare">
-  <img src="https://img.shields.io/badge/View%20Repository-16a34a?style=for-the-badge">
-</a>
-
-<a href="https://github.com/Yash-Agarwal-4a5h/scamshield-voice">
-  <img src="https://img.shields.io/badge/View%20Repository-0284c7?style=for-the-badge">
-</a>
+<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-16A34A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Object%20Oriented%20Programming-EA580C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DBMS-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Computer%20Networks-0891B2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/REST%20APIs-DC2626?style=for-the-badge"/>
 
 </p>
 
-## 📚 Currently Learning
-
-| Technology | Progress |
-|------------|----------|
-| Java + Spring Boot | ██████████░░ 80% |
-| Docker | ████████░░░░ 65% |
-| Azure Cloud | ████████░░░░ 70% |
-| System Design | ███████░░░░░ 60% |
-| LLM Applications | ███████░░░░░ 60% |
-
-## 🎯 Open To
-
-- Software Engineering Internship (2027)
-- AI / ML Internship
-- Backend Engineering Internship
-- Full Stack Development Internship
-- Open Source Collaboration
-
-> Interested in solving real-world engineering problems through scalable software systems.
+</td>
+</tr>
+</table>
 
 ---
 
-<!-- # 📊 GitHub Analytics Dashboard
+# 🚀 Featured Engineering Projects
 
 <p align="center">
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api?username=Yash-Agarwal-4a5h&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<img height="170"
-src="https://github-readme-streak-stats.herokuapp.com/?user=Yash-Agarwal-4a5h&theme=tokyonight&hide_border=true"/>
-
+  <b>AI • Full Stack • Machine Learning • Backend Engineering</b><br>
+  Production-ready applications built using React, Java, Python, TensorFlow, MongoDB, Azure and modern software engineering practices.
 </p>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌿 <a href="https://github.com/Yash-Agarwal-4a5h/WasteCare">WasteCare AI</a>
+*AI-powered medication waste management platform for sustainable healthcare.*
+
+- 🤖 TensorFlow demand prediction
+- ⚛ React dashboard
+- 🔥 Firebase authentication
+- 🍃 MongoDB backend
+- 📊 Power BI analytics
+- 🌍 Waste-to-Energy recommendation engine
+
+`React` `Node.js` `MongoDB` `TensorFlow` `Firebase`
+</td>
+
+<td width="50%" valign="top">
+
+### 🛡 <a href="https://github.com/Yash-Agarwal-4a5h/scamshield-voice">ScamShield Voice AI</a>
+*Real-time AI voice scam detection and risk analysis platform.*
+
+- 🎙 Speech recognition
+- 🧠 LLM-powered scam detection
+- 📞 Live voice monitoring
+- 🚨 Fraud alert dashboard
+- 📈 Risk score prediction
+
+`React` `Python` `LLM` `NLP`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 📊 <a href="https://github.com/Yash-Agarwal-4a5h/Telecom-Customer-Churn-Prediction">Telecom Customer Churn Prediction</a>
+*Machine learning system for customer retention analytics.*
+
+- 📈 Feature Engineering
+- 🌲 Random Forest & XGBoost
+- 🎯 Customer Churn Prediction
+- 📊 Customer Insights Dashboard
+- 📉 Predictive Analytics
+
+`Python` `Scikit-Learn` `Pandas` `XGBoost`
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🎬 <a href="https://github.com/Yash-Agarwal-4a5h/Hybrid-Movie-Recommendation-System">Hybrid Movie Recommendation System</a>
+*Personalized recommendation engine using collaborative and content-based filtering.*
+
+- 🎯 Personalized Recommendations
+- 🧠 NLP Similarity Engine
+- 🎞 Collaborative Filtering
+- 📺 Streamlit Web Application
+- 📊 Dataset Visualization
+
+`Python` `Streamlit` `NLP` `Pandas`
+
+</td>
+</tr>
+</table>
+
 <p align="center">
+  <a href="https://github.com/Yash-Agarwal-4a5h?tab=repositories">
+    <img src="https://img.shields.io/badge/View%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-<img width="70%"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yash-Agarwal-4a5h&layout=compact&theme=tokyonight&hide_border=true"/>
+---
 
-</p> -->
 ## 📊 GitHub Analytics Dashboard
 
 <p align="center">
@@ -435,7 +336,7 @@ Python
 
 ---
 
-## 🧠 DSA Progress Dashboard
+<!-- ## 🧠 DSA Progress Dashboard
 
 <table>
 <tr>
@@ -489,284 +390,101 @@ Python
 
 </table>
 
----
 
-## ⚡ Programming Snapshot
-
-<table>
-<tr>
-<td width="25%">☕ Java</td>
-<td width="25%">🐍 Python</td>
-<td width="25%">⚛ React</td>
-<td width="25%">🟢 Node.js</td>
-</tr>
-
-<tr>
-<td>🔥 Backend Development</td>
-<td>🤖 AI & ML</td>
-<td>🎨 Frontend UI</td>
-<td>⚙ REST APIs</td>
-</tr>
-
-<tr>
-<td>💾 SQL</td>
-<td>🍃 MongoDB</td>
-<td>☁ Azure</td>
-<td>🐳 Docker</td>
-</tr>
-</table>
+--- -->
 
 ---
-
-# 🏆 Achievements Dashboard
-
-<table>
-<tr>
-<td width="50%">
-
-### 🥇 Code-O-Lympics Winner
-
-**1st Prize**
-
-JECRC Renaissance Fest 2026
-
-Competitive Programming Competition
-
-</td>
-
-<td width="50%">
-
-### 🌍 International Mathematics Olympiad
-
-Two-Time Gold Medalist
-
-- Class IX
-- Class X
-
-City Rank • Zonal Rank • International Rank
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 💡 Hackathons
-
-- Smart India Hackathon
-- HackCrux 36 Hours
-- CodeFiesta 4.0
-- AI Voice Security Hackathon
-
-</td>
-
-<td width="50%">
-
-### 🤖 AI Projects
-
-- WasteCare AI
-- ScamShield Voice AI
-- Telecom Churn Prediction
-- Hybrid Movie Recommendation
-
-</td>
-</tr>
-</table>
-
----
-
-## 📜 Certifications
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-### ☁ Azure Fundamentals
-
-**AZ-900**
-
-Microsoft Certified
-
-Cloud Fundamentals
-
-</td>
-
-<td align="center" width="33%">
-
-### 📊 Azure Data Fundamentals
-
-**DP-900**
-
-Microsoft Certified
-
-Azure Data Platform
-
-</td>
-
-<td align="center" width="33%">
-
-### 🤖 Oracle OCI AI Foundations
-
-98% Score
-
-Oracle University
-
-AI Foundations Associate
-
-</td>
-</tr>
-
-<tr>
-<td align="center" width="50%">
-
-### 📈 365 Data Science
-
-Machine Learning
-
-Data Analysis
-
-Python
-
-</td>
-
-<td align="center" width="50%">
-
-### 💻 Git & GitHub
-
-Version Control
-
-Open Source
-
-GitHub Workflow
-
-</td>
-</tr>
-</table>
-
----
-
 ## 💼 Internship Experience
+**🏢 Data Science Intern — Celebal Technologies** *(May 2026 – Jul 2026)*
+Built ML and AI applications with TensorFlow, SQL and Python; exposed models through REST APIs; followed Git-based team workflows.
+
+**💻 Frontend Developer Intern — Cognifyz Technologies** *(Jun 2024 – Jul 2024)*
+Built responsive interfaces with HTML, CSS, JavaScript and React fundamentals.
+
+---
+
+# 🏆 Achievements & Certifications Hub
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=24&duration=2500&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&lines=🏆+Competitive+Programmer;🤖+AI+%26+Full+Stack+Developer;☁️+Microsoft+%7C+Oracle+Certified;🚀+Hackathon+Builder+%7C+Future+SDE+2027" />
+</p>
 
 <table>
 <tr>
-<td width="30%">
+<td width="50%" valign="top">
 
-### 🏢 Celebal Technologies
+### 🥇 Achievements
 
-Data Science Intern
 
-May 2026 – July 2026
 
-</td>
+- 🏆 **1st Prize** — Code-O-Lympics 2026 (JECRC Renaissance Fest)
+- 🌍 **Two-Time Gold Medalist** — International Mathematics Olympiad:
+📍 City Rank 1 • Zonal Rank 131 • International Rank 335
+- 💻 **500+ LeetCode Problems** & DSA Practice
+- 🚀 Active Hackathon & Open Source Contributor
 
-<td width="70%">
+### ⚡ Hackathons
 
-#### Worked On
+<img src="https://img.shields.io/badge/4+_Hackathons-Completed-16A34A?style=flat-square&logo=hackthebox&logoColor=white"/>
 
-- Machine Learning Projects
-- AI Applications
-- TensorFlow Models
-- SQL + Python
-- REST APIs
-- Git Workflow
-- Object-Oriented Programming
-
-Built multiple AI and software engineering projects during internship.
-
-</td>
-</tr>
-
-<tr>
-<td width="30%">
-
-### 💻 Cognifyz Technologies
-
-Frontend Developer Intern
-
-June 2024 – July 2024
+- 🇮🇳 Smart India Hackathon
+- ⚡ HackCrux (36-Hour Hackathon)
+- 🎯 CodeFiesta 4.0
+- 🛡 AI Voice Security Hackathon
 
 </td>
 
-<td width="70%">
+<td width="50%" valign="top">
 
-#### Worked On
+### 📜 Certifications
 
-- HTML
-- CSS
-- JavaScript
-- Responsive UI
-- React Fundamentals
+<img src="https://img.shields.io/badge/Microsoft-AZ--900-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+
+**Azure Fundamentals**
+
+☁️ Cloud Computing Fundamentals
+
+---
+
+<img src="https://img.shields.io/badge/Microsoft-DP--900-0078D4?style=flat-square&logo=microsoft&logoColor=white"/>
+
+**Azure Data Fundamentals**
+
+📊 Azure Data Platform & Analytics
+
+---
+
+<img src="https://img.shields.io/badge/Oracle-OCI_AI_Foundations-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+
+**Oracle OCI AI Foundations Associate**
+🤖 **Score:** 98%
+
+---
+
+<img src="https://img.shields.io/badge/365_Data_Science-Certified-9333EA?style=flat-square&logo=databricks&logoColor=white"/>
+
+Machine Learning • Python • Data Analysis
 
 </td>
 </tr>
 </table>
 
 ---
+---
 
-## 🚀 Project Showcase
+# 🚀 Milestones at a Glance
 
-<table>
-<tr>
-<td width="50%">
+<p align="center">
+  <img src="./assets/milestones.svg" alt="Yash Agarwal Milestones" width="100%"/>
+</p>
 
-### 🌿 WasteCare AI
-
-AI-Powered Medication Waste Management Platform
-
-#### Highlights
-
-- TensorFlow Prediction
-- MongoDB Database
-- React Dashboard
-- Firebase Authentication
-- Power BI Analytics
-
-</td>
-
-<td width="50%">
-
-### 🛡 ScamShield Voice AI
-
-Voice Scam Detection Platform
-
-#### Highlights
-
-- Voice Recognition
-- AI Fraud Detection
-- LLM Analysis
-- Live Monitoring Dashboard
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 📊 Telecom Churn Prediction
-
-Customer Retention Analytics
-
-- XGBoost
-- Random Forest
-- Feature Engineering
-
-</td>
-
-<td width="50%">
-
-### 🎬 Movie Recommendation System
-
-Hybrid Recommendation Engine
-
-- NLP
-- Collaborative Filtering
-- Streamlit
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <i>Key achievements, certifications, hackathons, competitive programming and AI engineering milestones.</i>
+</p>
 
 ---
+
+
 
 ## ❤️ Developer Philosophy
 
@@ -806,73 +524,11 @@ while (learning) {
 
 > Always interested in Software Engineering, AI, Backend Development and Open Source collaborations.
 
-## 🤝 Open Source & Collaboration
-
-I'm interested in contributing to projects involving:
-
-<table>
-<tr>
-<td width="50%">
-
-### AI / ML
-
-- NLP
-- TensorFlow
-- LLM Applications
-- Computer Vision
-
-</td>
-
-<td width="50%">
-
-### Software Engineering
-
-- Java Backend
-- REST APIs
-- Spring Boot
-- React.js
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### Cloud
-
-- Azure
-- Docker
-- GitHub Actions
-
-</td>
-
-<td width="50%">
-
-### Data Science
-
-- Pandas
-- SQL
-- Scikit-Learn
-- Analytics
-
-</td>
-</tr>
-</table>
 
 ## 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Yash-Agarwal-4a5h/Yash-Agarwal-4a5h/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake"/>
-</p>
-
----
-
-## 📊 GitHub Metrics
-
-<p align="center">
-
-<img src="./github-metrics.svg"/>
-
 </p>
 
 ---
@@ -886,3 +542,18 @@ I'm interested in contributing to projects involving:
     alt="GitHub Activity Graph"
   />
 </p>
+
+---
+---
+
+## 📊 GitHub Metrics
+
+<p align="center">
+
+<img src="./github-metrics.svg"/>
+
+</p>
+
+
+
+---
