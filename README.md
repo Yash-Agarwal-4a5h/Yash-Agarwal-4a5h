@@ -19,7 +19,7 @@
   Software Engineer • AI Engineer • Full Stack Developer
 </h1>
 
-<p align="center">
+<!-- <p align="center">
   Final Year B.Tech Information Technology <br/>
   Jaipur Engineering College & Research Centre (JECRC Jaipur) <br/>
   Batch of 2027
@@ -47,7 +47,7 @@
 
 </p>
 
----
+--- -->
 
 ## 💡 About Me
 
