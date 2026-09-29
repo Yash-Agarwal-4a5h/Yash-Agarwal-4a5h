@@ -1,18 +1,18 @@
 # 👋 Hi, I'm Yash Agarwal
 
 <p align="center">
-  <!-- <picture>
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg">
     <img src="./assets/dark.svg"
          alt="Yash Agarwal GitHub Hero Banner"
          width="100%">
-  </picture> -->
-  <picture>
+  </picture>
+  <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/light.svg" />
   <img alt="Yash-Agarwal-4a5h's GitHub profile" src="./assets/dark.svg" />
-</picture>
+</picture> -->
 </p>
 
 <h1 align="center">

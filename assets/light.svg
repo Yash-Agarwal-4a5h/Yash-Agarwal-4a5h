@@ -1,638 +1,293 @@
-<svg width="1180"
-     height="610"
-     viewBox="0 0 1180 610"
-     xmlns="http://www.w3.org/2000/svg"
-     role="img"
-     aria-label="Light GitHub banner for Yash Agarwal">
-
-  <!-- ===================================================== -->
-  <!-- DEFINITIONS -->
-  <!-- ===================================================== -->
-
-  <defs>
-
-    <!-- Background Gradient -->
-
-    <linearGradient id="lightBG"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="100%">
-
-      <stop offset="0%" stop-color="#FFFFFF">
-        <animate attributeName="stop-color"
-                 values="#FFFFFF;#EFF6FF;#FFFFFF"
-                 dur="12s"
-                 repeatCount="indefinite"/>
-      </stop>
-
-      <stop offset="100%" stop-color="#DBEAFE">
-        <animate attributeName="stop-color"
-                 values="#DBEAFE;#E0F2FE;#DBEAFE"
-                 dur="12s"
-                 repeatCount="indefinite"/>
-      </stop>
-
-    </linearGradient>
-
-    <!-- Cyan Glow -->
-
-    <radialGradient id="cyanGlow"
-                    cx="50%"
-                    cy="50%"
-                    r="65%">
-
-      <stop offset="0%"
-            stop-color="#38BDF8"
-            stop-opacity=".18"/>
-
-      <stop offset="60%"
-            stop-color="#60A5FA"
-            stop-opacity=".08"/>
-
-      <stop offset="100%"
-            stop-color="#FFFFFF"
-            stop-opacity="0"/>
-
-    </radialGradient>
-
-    <!-- Glass Blur -->
-
-    <filter id="glass"
-            x="-20%"
-            y="-20%"
-            width="140%"
-            height="140%">
-
-      <feGaussianBlur stdDeviation="14"/>
-
-    </filter>
-
-    <!-- Shadow -->
-
-    <filter id="shadow"
-            x="-20%"
-            y="-20%"
-            width="140%"
-            height="140%">
-
-      <feDropShadow dx="0"
-                    dy="10"
-                    stdDeviation="18"
-                    flood-color="#2563EB"
-                    flood-opacity=".15"/>
-
-    </filter>
-
-    <!-- Grid -->
-
-    <pattern id="grid"
-             width="38"
-             height="38"
-             patternUnits="userSpaceOnUse">
-
-      <path d="M38 0V38 M0 38H38"
-            stroke="#BFDBFE"
-            stroke-width=".6"
-            opacity=".45"/>
-
-    </pattern>
-
-  </defs>
-
-  <!-- ===================================================== -->
-  <!-- BACKGROUND -->
-  <!-- ===================================================== -->
-
-  <rect width="1180"
-        height="610"
-        rx="26"
-        fill="url(#lightBG)"/>
-
-  <rect width="1180"
-        height="610"
-        rx="26"
-        fill="url(#grid)"
-        opacity=".5"/>
-
-  <!-- Decorative Glow -->
-
-  <circle cx="950"
-          cy="100"
-          r="260"
-          fill="url(#cyanGlow)">
-
-    <animateTransform attributeName="transform"
-                      type="translate"
-                      values="0 0;-20 20;0 0"
-                      dur="16s"
-                      repeatCount="indefinite"/>
-
-  </circle>
-
-  <circle cx="120"
-          cy="520"
-          r="240"
-          fill="#3B82F6"
-          opacity=".05">
-
-    <animate attributeName="opacity"
-             values=".03;.08;.03"
-             dur="8s"
-             repeatCount="indefinite"/>
-
-  </circle>
-  <!-- ===================================================== -->
-<!-- FLOATING PARTICLES -->
-<!-- ===================================================== -->
-
-<g opacity=".8">
-
-  <circle cx="150"
-          cy="80"
-          r="2.5"
-          fill="#0EA5E9">
-
-    <animateMotion dur="18s"
-                   repeatCount="indefinite"
-                   path="M0 0 C30 60 50 120 0 180"/>
-
-  </circle>
-
-  <circle cx="230"
-          cy="140"
-          r="2"
-          fill="#2563EB">
-
-    <animateMotion dur="14s"
-                   repeatCount="indefinite"
-                   path="M0 0 C-20 60 40 140 10 220"/>
-
-  </circle>
-
-  <circle cx="890"
-          cy="130"
-          r="2.3"
-          fill="#38BDF8">
-
-    <animateMotion dur="20s"
-                   repeatCount="indefinite"
-                   path="M0 0 C-50 80 -30 180 -70 260"/>
-
-  </circle>
-
-  <circle cx="1030"
-          cy="260"
-          r="1.8"
-          fill="#3B82F6">
-
-    <animateMotion dur="16s"
-                   repeatCount="indefinite"
-                   path="M0 0 C40 -60 70 -120 20 -220"/>
-
-  </circle>
-
+<svg width="1280" height="790" viewBox="0 0 1280 790" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" role="img" aria-label="GitHub profile banner for Yash Agarwal (light)" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjYjIxYzllOC0yMDUxLTRlZDQtYjE0Zi03NjgzZTQ1N2U2MWEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJ+oy0SOE9AIa1P5RSWA9sUAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3ZTk2MjEzZS0zNWM3LTQ0MTMtOGMyOC04Y2JjOTVmNmM4ODZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoyNjmLsdoI4wlHHAxladKWwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggWlCP9BCIgV5fTCVF3pvQZzrPsLFyzWOo8WI0MbVhD86kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaPeNa5GNhq0H3PnorBZJeDMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIGN4QEFU7pCDeFGr6Y+3Pdo7wniiptms2CEoPHD4j8brZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQEwZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmNiMjFjOWU4LTIwNTEtNGVkNC1iMTRmLTc2ODNlNDU3ZTYxYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJiMzU4NTdmLTVlMGItNGJhOC1iNWQzLTgxZGFhZDM5ZTcwN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBaUI/0EIiBXl9MJUXem9BnOs+wsXLNY6jxYjQxtWEPzqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggDU/kuBoZSGKAp8eaQDRsOHx5VoqrwNHMrFO+DaOKXhyiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggO8E2NykqXFzPKP9ZFebTfSanOFEXkVDuX2snmm7fEVV0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQGA96f+6WwLLKPsYdV2gwABE7BdRg2oRKlGtCXEd3TlRKGEj88WLajPI4FUnyph/uIKCTkRLn/YHC+Gy53h6HLc=</c2pa:manifest></metadata>
+<defs>
+<linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#DBEAFE"/><stop offset="50%" stop-color="#E0E7FF"/><stop offset="100%" stop-color="#FAE8FF"/></linearGradient>
+<radialGradient id="nA" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#8B5CF6" stop-opacity=".5"/><stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+<radialGradient id="nB" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#F472B6" stop-opacity=".45"/><stop offset="100%" stop-color="#F9A8D4" stop-opacity="0"/></radialGradient>
+<radialGradient id="nC" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#22D3EE" stop-opacity=".5"/><stop offset="100%" stop-color="#67E8F9" stop-opacity="0"/></radialGradient>
+<radialGradient id="planet" cx="35%" cy="30%" r="75%"><stop offset="0%" stop-color="#EDE9FE"/><stop offset="60%" stop-color="#A78BFA"/><stop offset="100%" stop-color="#6D28D9"/></radialGradient>
+<linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0891B2"/><stop offset="50%" stop-color="#6366F1"/><stop offset="100%" stop-color="#C026D3"/></linearGradient>
+<linearGradient id="ascii" gradientUnits="userSpaceOnUse" x1="0" y1="172" x2="0" y2="402"><stop offset="0%" stop-color="#0F172A"/><stop offset="100%" stop-color="#1E1B4B"/></linearGradient>
+<linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="460" y1="0" x2="720" y2="0"><stop offset="0%" stop-color="#4338CA"/><stop offset="55%" stop-color="#0891B2"/><stop offset="100%" stop-color="#C026D3"/></linearGradient>
+<linearGradient id="frameBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#EEF2FF"/></linearGradient>
+<linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#4F46E5"/><stop offset="50%" stop-color="#06B6D4"/><stop offset="100%" stop-color="#D946EF"/></linearGradient>
+<filter id="shadow" x="-5%" y="-5%" width="110%" height="115%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#4338CA" flood-opacity=".18"/></filter>
+<clipPath id="card"><rect width="1280" height="790" rx="30"/></clipPath>
+<clipPath id="frame"><rect x="87" y="172" width="290" height="230" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1280" height="790" fill="url(#sky)"/>
+<circle cx="200" cy="160" r="380" fill="url(#nA)"/><circle cx="1120" cy="580" r="360" fill="url(#nB)"/><circle cx="640" cy="820" r="430" fill="url(#nC)"/><circle cx="1010" cy="70" r="330" fill="url(#nC)"/>
+<text x="20" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">]{$=01|*1<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="14s" repeatCount="indefinite"/></text>
+<text x="84" y="-140" font-size="12" fill="#059669" fill-opacity=".14">];0*}01$$<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="16s" repeatCount="indefinite"/></text>
+<text x="148" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">1}1*$0|;1<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="18s" repeatCount="indefinite"/></text>
+<text x="212" y="-140" font-size="12" fill="#059669" fill-opacity=".14">}==;0;;$0<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="20s" repeatCount="indefinite"/></text>
+<text x="276" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">}0*|{[${*<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="22s" repeatCount="indefinite"/></text>
+<text x="340" y="-140" font-size="12" fill="#059669" fill-opacity=".14">1;[*|={1;<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="24s" repeatCount="indefinite"/></text>
+<text x="404" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">;=}]1*/1;<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="26s" repeatCount="indefinite"/></text>
+<text x="468" y="-140" font-size="12" fill="#059669" fill-opacity=".14">0;}#=*$+]<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="14s" repeatCount="indefinite"/></text>
+<text x="532" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">#;#][}+{/<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="16s" repeatCount="indefinite"/></text>
+<text x="596" y="-140" font-size="12" fill="#059669" fill-opacity=".14">+}1;[*#]/<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="18s" repeatCount="indefinite"/></text>
+<text x="660" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">#[;11*${+<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="20s" repeatCount="indefinite"/></text>
+<text x="724" y="-140" font-size="12" fill="#059669" fill-opacity=".14">]{#$0=1+*<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="22s" repeatCount="indefinite"/></text>
+<text x="788" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">;+|]]/];#<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="24s" repeatCount="indefinite"/></text>
+<text x="852" y="-140" font-size="12" fill="#059669" fill-opacity=".14">;+#1|1[#/<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="26s" repeatCount="indefinite"/></text>
+<text x="916" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">=10//[=;=<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="14s" repeatCount="indefinite"/></text>
+<text x="980" y="-140" font-size="12" fill="#059669" fill-opacity=".14">|#[/$=]0#<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="16s" repeatCount="indefinite"/></text>
+<text x="1044" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">]{;1#0}+[<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="18s" repeatCount="indefinite"/></text>
+<text x="1108" y="-140" font-size="12" fill="#059669" fill-opacity=".14">{/}$$|#1{<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="20s" repeatCount="indefinite"/></text>
+<text x="1172" y="-140" font-size="12" fill="#0891B2" fill-opacity=".14">#$*[{|$|*<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="22s" repeatCount="indefinite"/></text>
+<text x="1236" y="-140" font-size="12" fill="#059669" fill-opacity=".14">[/$]=$}{1<animateTransform attributeName="transform" type="translate" values="0 0;0 900" dur="24s" repeatCount="indefinite"/></text>
+<circle cx="364" cy="158" r="0.8" fill="#0891B2" opacity="0.25"/>
+<circle cx="1210" cy="190" r="1" fill="#A855F7" opacity="0.25"/>
+<circle cx="862" cy="551" r="1" fill="#A855F7" opacity="0.58"/>
+<circle cx="1059" cy="636" r="1.4" fill="#6366F1" opacity="0.41"/>
+<circle cx="1149" cy="405" r="1" fill="#F59E0B" opacity="0.39"/>
+<circle cx="990" cy="653" r="1" fill="#6366F1" opacity="0.32"/>
+<circle cx="431" cy="455" r="0.8" fill="#6366F1" opacity="0.37"/>
+<circle cx="111" cy="108" r="0.8" fill="#0891B2" opacity="0.44"/>
+<circle cx="748" cy="632" r="0.8" fill="#6366F1" opacity="0.56"/>
+<circle cx="1261" cy="389" r="0.8" fill="#A855F7" opacity="0.58"/>
+<circle cx="1237" cy="376" r="1" fill="#6366F1" opacity="0.29"/>
+<circle cx="1003" cy="481" r="1" fill="#F59E0B" opacity="0.36"/>
+<circle cx="299" cy="108" r="1.4" fill="#A855F7" opacity="0.51"/>
+<circle cx="984" cy="712" r="0.8" fill="#6366F1" opacity="0.32"/>
+<circle cx="1085" cy="374" r="0.8" fill="#6366F1" opacity="0.52"/>
+<circle cx="614" cy="662" r="0.8" fill="#A855F7" opacity="0.43"/>
+<circle cx="346" cy="368" r="0.8" fill="#A855F7" opacity="0.47"/>
+<circle cx="1259" cy="780" r="0.8" fill="#0891B2" opacity="0.54"/>
+<circle cx="468" cy="208" r="1.4" fill="#F59E0B" opacity="0.37"/>
+<circle cx="63" cy="32" r="1" fill="#F59E0B" opacity="0.34"/>
+<circle cx="1243" cy="356" r="1" fill="#A855F7" opacity="0.58"/>
+<circle cx="750" cy="86" r="0.8" fill="#6366F1" opacity="0.33"/>
+<circle cx="406" cy="349" r="0.8" fill="#F59E0B" opacity="0.47"/>
+<circle cx="1253" cy="5" r="1" fill="#A855F7" opacity="0.53"/>
+<circle cx="177" cy="680" r="0.8" fill="#F59E0B" opacity="0.52"/>
+<circle cx="412" cy="493" r="0.8" fill="#F59E0B" opacity="0.53"/>
+<circle cx="684" cy="92" r="1.4" fill="#F59E0B" opacity="0.41"/>
+<circle cx="177" cy="746" r="0.8" fill="#0891B2" opacity="0.60"/>
+<circle cx="60" cy="158" r="1.4" fill="#F59E0B" opacity="0.53"/>
+<circle cx="303" cy="630" r="1.4" fill="#F59E0B" opacity="0.48"/>
+<circle cx="721" cy="163" r="1.4" fill="#0891B2" opacity="0.26"/>
+<circle cx="214" cy="543" r="1.4" fill="#0891B2" opacity="0.40"/>
+<circle cx="402" cy="220" r="0.8" fill="#A855F7" opacity="0.32"/>
+<circle cx="1030" cy="250" r="1.4" fill="#A855F7" opacity="0.34"/>
+<circle cx="862" cy="138" r="0.8" fill="#A855F7" opacity="0.56"/>
+<circle cx="1198" cy="533" r="1" fill="#0891B2" opacity="0.44"/>
+<circle cx="1076" cy="526" r="0.8" fill="#F59E0B" opacity="0.52"/>
+<circle cx="1250" cy="8" r="0.8" fill="#0891B2" opacity="0.30"/>
+<circle cx="1271" cy="746" r="0.8" fill="#6366F1" opacity="0.36"/>
+<circle cx="1065" cy="547" r="1.4" fill="#F59E0B" opacity="0.52"/>
+<circle cx="221" cy="577" r="0.8" fill="#0891B2" opacity="0.32"/>
+<circle cx="90" cy="104" r="1.4" fill="#F59E0B" opacity="0.45"/>
+<circle cx="133" cy="457" r="1" fill="#0891B2" opacity="0.49"/>
+<circle cx="930" cy="524" r="1.4" fill="#F59E0B" opacity="0.43"/>
+<circle cx="511" cy="719" r="1.4" fill="#A855F7" opacity="0.57"/>
+<circle cx="418" cy="462" r="0.8" fill="#F59E0B" opacity="0.29"/>
+<circle cx="909" cy="327" r="0.8" fill="#0891B2" opacity="0.40"/>
+<circle cx="439" cy="689" r="1" fill="#6366F1" opacity="0.56"/>
+<circle cx="320" cy="737" r="1.4" fill="#A855F7" opacity="0.30"/>
+<circle cx="285" cy="482" r="0.8" fill="#6366F1" opacity="0.39"/>
+<circle cx="1001" cy="170" r="1.4" fill="#0891B2" opacity="0.31"/>
+<circle cx="887" cy="531" r="1" fill="#A855F7" opacity="0.40"/>
+<circle cx="734" cy="330" r="0.8" fill="#A855F7" opacity="0.26"/>
+<circle cx="1138" cy="473" r="1" fill="#6366F1" opacity="0.38"/>
+<circle cx="1063" cy="642" r="1" fill="#6366F1" opacity="0.29"/>
+<circle cx="472" cy="111" r="0.8" fill="#A855F7" opacity="0.35"/>
+<circle cx="375" cy="280" r="0.8" fill="#F59E0B" opacity="0.55"/>
+<circle cx="533" cy="419" r="0.8" fill="#F59E0B" opacity="0.50"/>
+<circle cx="187" cy="289" r="0.8" fill="#0891B2" opacity="0.40"/>
+<circle cx="152" cy="279" r="0.8" fill="#6366F1" opacity="0.53"/>
+<circle cx="175" cy="626" r="0.8" fill="#6366F1" opacity="0.34"/>
+<circle cx="253" cy="468" r="0.8" fill="#A855F7" opacity="0.60"/>
+<circle cx="859" cy="278" r="1.4" fill="#0891B2" opacity="0.27"/>
+<circle cx="492" cy="116" r="0.8" fill="#A855F7" opacity="0.27"/>
+<circle cx="417" cy="323" r="1.4" fill="#A855F7" opacity="0.44"/>
+<circle cx="425" cy="300" r="1" fill="#0891B2" opacity="0.34"/>
+<circle cx="41" cy="260" r="0.8" fill="#6366F1" opacity="0.26"/>
+<circle cx="1039" cy="568" r="0.8" fill="#F59E0B" opacity="0.34"/>
+<circle cx="919" cy="112" r="1.4" fill="#F59E0B" opacity="0.48"/>
+<circle cx="1122" cy="406" r="1.4" fill="#A855F7" opacity="0.49"/>
+<circle cx="500" cy="380" r="1.6" fill="#0891B2"><animate attributeName="opacity" values=".15;.9;.15" dur="5.5s" repeatCount="indefinite"/></circle>
+<circle cx="316" cy="444" r="1.6" fill="#A855F7"><animate attributeName="opacity" values=".15;.9;.15" dur="5.9s" repeatCount="indefinite"/></circle>
+<circle cx="295" cy="44" r="1.6" fill="#6366F1"><animate attributeName="opacity" values=".15;.9;.15" dur="4.9s" repeatCount="indefinite"/></circle>
+<circle cx="553" cy="471" r="1.6" fill="#0891B2"><animate attributeName="opacity" values=".15;.9;.15" dur="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="810" cy="548" r="1.6" fill="#A855F7"><animate attributeName="opacity" values=".15;.9;.15" dur="4.8s" repeatCount="indefinite"/></circle>
+<circle cx="630" cy="76" r="1.6" fill="#F59E0B"><animate attributeName="opacity" values=".15;.9;.15" dur="3.6s" repeatCount="indefinite"/></circle>
+<circle cx="580" cy="486" r="1.6" fill="#6366F1"><animate attributeName="opacity" values=".15;.9;.15" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="703" cy="590" r="1.6" fill="#A855F7"><animate attributeName="opacity" values=".15;.9;.15" dur="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="663" cy="253" r="1.6" fill="#A855F7"><animate attributeName="opacity" values=".15;.9;.15" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="716" cy="420" r="1.6" fill="#6366F1"><animate attributeName="opacity" values=".15;.9;.15" dur="4.4s" repeatCount="indefinite"/></circle>
+<g transform="rotate(-12 640 395)" fill="none"><ellipse cx="640" cy="395" rx="430" ry="250" stroke="#6366F1" stroke-opacity=".2" stroke-dasharray="2 9"/><circle r="3.2" fill="#0891B2"><animateMotion dur="46s" repeatCount="indefinite" path="M210,395 a430,250 0 1,0 860,0 a430,250 0 1,0 -860,0"/></circle><ellipse cx="640" cy="395" rx="560" ry="330" stroke="#6366F1" stroke-opacity=".2" stroke-dasharray="2 9"/><circle r="3.2" fill="#7C3AED"><animateMotion dur="70s" repeatCount="indefinite" path="M80,395 a560,330 0 1,0 1120,0 a560,330 0 1,0 -1120,0"/></circle></g>
+<g transform="translate(1090,285)"><animateTransform attributeName="transform" type="translate" values="1090 285;1090 279;1090 285" dur="9s" repeatCount="indefinite"/><g transform="rotate(-22)"><ellipse rx="86" ry="20" fill="none" stroke="#8B5CF6" stroke-opacity=".4" stroke-width="7"/></g><circle r="46" fill="url(#planet)"/><g transform="rotate(-22)"><path d="M-86,0 A86,20 0 0 0 86,0" fill="none" stroke="#8B5CF6" stroke-opacity=".6" stroke-width="7"/></g></g>
+<circle cx="1242" cy="330" r="7" fill="#94A3B8"/>
+<path d="M500,34 L528,16 L558,32 L590,14 L620,30" fill="none" stroke="#0891B2" stroke-opacity=".45" stroke-width=".8"/>
+<text x="632" y="34" fill="#0891B2" fill-opacity=".7" font-size="9">cassiopeia.js</text>
+<path d="M540,762 L566,768 L592,773 L700,752 L726,760" fill="none" stroke="#0891B2" stroke-opacity=".45" stroke-width=".8"/>
+<text x="606" y="780" fill="#0891B2" fill-opacity=".7" font-size="9">orion.py</text>
 </g>
-<!-- ===================================================== -->
-<!-- GLASS PANEL -->
-<!-- ===================================================== -->
-
-<rect x="28"
-      y="28"
-      width="1124"
-      height="554"
-      rx="24"
-      fill="rgba(255,255,255,.55)"
-      stroke="#BFDBFE"
-      stroke-width="1.5"
-      filter="url(#shadow)"/>
-
-<rect x="28"
-      y="28"
-      width="1124"
-      height="554"
-      rx="24"
-      fill="none"
-      stroke="#60A5FA"
-      stroke-opacity=".25">
-
-  <animate attributeName="stroke-opacity"
-           values=".15;.4;.15"
-           dur="5s"
-           repeatCount="indefinite"/>
-
-</rect>
-<!-- ===================================================== -->
-<!-- TERMINAL HEADER -->
-<!-- ===================================================== -->
-
-<rect x="48"
-      y="48"
-      width="1084"
-      height="46"
-      rx="14"
-      fill="#F8FAFC"
-      stroke="#CBD5E1"/>
-
-<circle cx="76"
-        cy="71"
-        r="6"
-        fill="#EF4444"/>
-
-<circle cx="98"
-        cy="71"
-        r="6"
-        fill="#FBBF24"/>
-
-<circle cx="120"
-        cy="71"
-        r="6"
-        fill="#22C55E"/>
-
-<text x="150"
-      y="77"
-      fill="#1E293B"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  nayan@developer:~ [ ONLINE ]
-
-</text>
-
-<circle cx="345"
-        cy="71"
-        r="4"
-        fill="#22C55E">
-
-  <animate attributeName="opacity"
-           values="1;.3;1"
-           dur="1.5s"
-           repeatCount="indefinite"/>
-
-</circle>
-<!-- ===================================================== -->
-<!-- PROFILE PANEL -->
-<!-- ===================================================== -->
-
-<rect x="54"
-      y="110"
-      width="355"
-      height="445"
-      rx="20"
-      fill="#FFFFFF"
-      fill-opacity=".55"
-      stroke="#BFDBFE"/>
-
-<text x="80"
-      y="145"
-      fill="#0284C7"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  [ VISUAL.IDENTITY ]
-
-</text>
-
-<!-- Portrait Container -->
-
-<rect x="88"
-      y="170"
-      width="290"
-      height="275"
-      rx="18"
-      fill="#F8FAFC"
-      stroke="#7DD3FC"
-      stroke-opacity=".35"/>
-
-<!-- Scanline -->
-
-<rect x="88"
-      y="175"
-      width="290"
-      height="3"
-      fill="#38BDF8"
-      opacity=".15">
-
-  <animate attributeName="y"
-           values="175;435;175"
-           dur="6s"
-           repeatCount="indefinite"/>
-
-</rect>
-
-<text x="145"
-      y="315"
-      fill="#64748B"
-      font-size="14"
-      font-family="ui-monospace,monospace">
-
-  ASCII DEVELOPER PORTRAIT
-
-</text>
-
-<!-- Terminal Prompt -->
-
-<text x="80"
-      y="480"
-      fill="#16A34A"
-      font-size="14"
-      font-family="ui-monospace,monospace">
-
-  ~/profile $
-
-</text>
-
-<text x="160"
-      y="480"
-      fill="#1E293B"
-      font-size="14"
-      font-family="ui-monospace,monospace">
-
-  build --ship
-
-</text>
-
-<rect x="260"
-      y="467"
-      width="8"
-      height="16"
-      fill="#0284C7">
-
-  <animate attributeName="opacity"
-           values="1;0;1"
-           dur="1s"
-           repeatCount="indefinite"/>
-
-</rect>
-<!-- ===================================================== -->
-<!-- SYSTEM.INFO PANEL -->
-<!-- ===================================================== -->
-
-<rect x="445"
-      y="110"
-      width="660"
-      height="445"
-      rx="20"
-      fill="#FFFFFF"
-      fill-opacity=".45"
-      stroke="#BFDBFE"/>
-
-<text x="470"
-      y="145"
-      fill="#0284C7"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  [ SYSTEM.INFO ]
-
-</text>
-
-<line x1="470"
-      y1="160"
-      x2="1070"
-      y2="160"
-      stroke="#60A5FA"
-      stroke-opacity=".25"/>
-
-<!-- NAME -->
-
-<text x="470"
-      y="205"
-      fill="#0F172A"
-      font-size="34"
-      font-weight="700"
-      font-family="ui-monospace,monospace">
-
-  Yash (Nayan) Agarwal
-
-</text>
-
-<text x="470"
-      y="230"
-      fill="#475569"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  Software Engineer • AI Engineer • Full Stack Developer
-
-</text>
-
-<!-- Animated underline -->
-
-<rect x="470"
-      y="240"
-      width="210"
-      height="2"
-      fill="#0EA5E9"
-      opacity=".45">
-
-  <animate attributeName="width"
-           values="50;210;50"
-           dur="6s"
-           repeatCount="indefinite"/>
-
-</rect>
-<!-- INFO GRID -->
-
-<text x="470" y="280" fill="#64748B" font-size="14">EDUCATION</text>
-<text x="640" y="280" fill="#1E293B" font-size="14">Final Year B.Tech IT</text>
-
-<text x="470" y="310" fill="#64748B" font-size="14">COLLEGE</text>
-<text x="640" y="310" fill="#1E293B" font-size="14">JECRC Jaipur</text>
-
-<text x="470" y="340" fill="#64748B" font-size="14">BATCH</text>
-<text x="640" y="340" fill="#1E293B" font-size="14">2027</text>
-
-<text x="470" y="370" fill="#64748B" font-size="14">LOCATION</text>
-<text x="640" y="370" fill="#1E293B" font-size="14">Jaipur, Rajasthan, India</text>
-
-<text x="470" y="400" fill="#64748B" font-size="14">STATUS</text>
-
-<circle cx="625"
-        cy="394"
-        r="4"
-        fill="#22C55E">
-  <animate attributeName="opacity"
-           values="1;.3;1"
-           dur="1.4s"
-           repeatCount="indefinite"/>
-</circle>
-
-<text x="640"
-      y="400"
-      fill="#15803D"
-      font-size="14">
-  Open to SWE / AI Internship (2027)
-</text>
-<!-- ===================================================== -->
-<!-- ROTATING ROLE -->
-<!-- ===================================================== -->
-
-<text x="470"
-      y="440"
-      fill="#0284C7"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  ROLE:
-
-</text>
-
-<text x="540"
-      y="440"
-      fill="#1E293B"
-      font-size="15"
-      opacity="1"
-      font-family="ui-monospace,monospace">
-
-  Software Engineer
-
-  <animate attributeName="opacity"
-           values="1;1;0;0;0"
-           dur="9s"
-           repeatCount="indefinite"/>
-
-</text>
-
-<text x="540"
-      y="440"
-      fill="#1E293B"
-      font-size="15"
-      opacity="0"
-      font-family="ui-monospace,monospace">
-
-  AI Engineer
-
-  <animate attributeName="opacity"
-           values="0;0;1;1;0"
-           dur="9s"
-           repeatCount="indefinite"/>
-
-</text>
-
-<text x="540"
-      y="440"
-      fill="#1E293B"
-      font-size="15"
-      opacity="0"
-      font-family="ui-monospace,monospace">
-
-  Full Stack Developer
-
-  <animate attributeName="opacity"
-           values="0;0;0;0;1;1;0"
-           dur="9s"
-           repeatCount="indefinite"/>
-
-</text>
-
-<rect x="725"
-      y="427"
-      width="8"
-      height="16"
-      fill="#0284C7">
-
-  <animate attributeName="opacity"
-           values="1;0;1"
-           dur="1s"
-           repeatCount="indefinite"/>
-
-</rect>
-<!-- ===================================================== -->
-<!-- TECH STACK -->
-<!-- ===================================================== -->
-
-<text x="470"
-      y="475"
-      fill="#0284C7"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  TECH.STACK
-
-</text>
-
-<!-- React -->
-
-<rect x="470" y="490" width="95" height="28" rx="14"
-      fill="#E0F2FE" stroke="#38BDF8"/>
-
-<text x="495" y="508" fill="#0369A1" font-size="13">REACT</text>
-
-<!-- Java -->
-
-<rect x="575" y="490" width="90" height="28" rx="14"
-      fill="#FFF7ED" stroke="#FB923C"/>
-
-<text x="600" y="508" fill="#C2410C" font-size="13">JAVA</text>
-
-<!-- Python -->
-
-<rect x="675" y="490" width="100" height="28" rx="14"
-      fill="#DBEAFE" stroke="#60A5FA"/>
-
-<text x="700" y="508" fill="#1D4ED8" font-size="13">PYTHON</text>
-
-<!-- Azure -->
-
-<rect x="785" y="490" width="95" height="28" rx="14"
-      fill="#E0F2FE" stroke="#0EA5E9"/>
-
-<text x="810" y="508" fill="#0369A1" font-size="13">AZURE</text>
-
-<!-- TensorFlow -->
-
-<rect x="890" y="490" width="140" height="28" rx="14"
-      fill="#FFF7ED" stroke="#FB923C"/>
-
-<text x="912" y="508" fill="#EA580C" font-size="13">TENSORFLOW</text>
-<!-- ===================================================== -->
-<!-- FEATURED PROJECTS -->
-<!-- ===================================================== -->
-
-<text x="470"
-      y="540"
-      fill="#0284C7"
-      font-size="15"
-      font-family="ui-monospace,monospace">
-
-  FEATURED.PROJECTS
-
-</text>
-
-<!-- WasteCare -->
-
-<rect x="470"
-      y="555"
-      width="220"
-      height="52"
-      rx="14"
-      fill="#ECFDF5"
-      stroke="#22C55E"/>
-
-<text x="485" y="575" fill="#166534" font-size="14">
-  WasteCare AI
-</text>
-
-<text x="485" y="592" fill="#16A34A" font-size="11">
-  React • Node • TensorFlow
-</text>
-
-<!-- ScamShield -->
-
-<rect x="705"
-      y="555"
-      width="260"
-      height="52"
-      rx="14"
-      fill="#EFF6FF"
-      stroke="#38BDF8"/>
-
-<text x="720" y="575" fill="#0369A1" font-size="14">
-  ScamShield Voice AI
-</text>
-
-<text x="720" y="592" fill="#0EA5E9" font-size="11">
-  Voice AI • LLM • React
-</text>
+<g transform="translate(50,50)">
+<rect x="28" y="28" width="1124" height="634" rx="24" fill="#FFFFFF" fill-opacity=".6" stroke="#FFFFFF" stroke-opacity=".9" filter="url(#shadow)"/>
+<rect x="28" y="28" width="1124" height="634" rx="24" fill="none" stroke="#0891B2" stroke-opacity=".3"><animate attributeName="stroke-opacity" values=".2;.55;.2" dur="6s" repeatCount="indefinite"/></rect>
+<rect x="28" y="28" width="1124" height="634" rx="24" fill="none" stroke="url(#bar)" stroke-width="3" stroke-linecap="round" pathLength="1000" stroke-dasharray="90 910"><animate attributeName="stroke-dashoffset" values="1000;0" dur="9s" repeatCount="indefinite"/></rect>
+<rect x="48" y="48" width="1084" height="46" rx="14" fill="#0F172A" stroke="#4F46E5" stroke-width="1.5"/>
+<circle cx="76" cy="71" r="6" fill="#EF4444"/><circle cx="98" cy="71" r="6" fill="#F59E0B"/><circle cx="120" cy="71" r="6" fill="#22C55E"/>
+<text x="148" y="76" fill="#E2E8F0" font-size="15">yash@developer:~</text>
+<circle cx="330" cy="71" r="4" fill="#4ADE80"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+<text x="344" y="76" fill="#4ADE80" font-size="13" font-weight="700">OPEN TO WORK</text>
+<rect x="894" y="58" width="44" height="26" rx="13" fill="#0F172A" stroke="#0F172A"/><text x="916" y="75.5" text-anchor="middle" fill="#FFFFFF" font-size="12">GH</text>
+<rect x="948" y="58" width="44" height="26" rx="13" fill="#E0F2FE" stroke="#0284C7"/><text x="970" y="75.5" text-anchor="middle" fill="#0369A1" font-size="12">in</text>
+<rect x="1002" y="58" width="44" height="26" rx="13" fill="#FEE2E2" stroke="#DC2626"/><text x="1024" y="75.5" text-anchor="middle" fill="#B91C1C" font-size="12">@</text>
+<rect x="1056" y="58" width="56" height="26" rx="13" fill="#DCFCE7" stroke="#16A34A"/><text x="1084" y="75.5" text-anchor="middle" fill="#15803D" font-size="12">WEB</text>
+<rect x="54" y="110" width="356" height="420" rx="20" fill="#FFFFFF" fill-opacity=".78" stroke="#C7D2FE" filter="url(#shadow)"/>
+<text x="78" y="145" fill="#4338CA" font-size="15">[ VISUAL.IDENTITY ]</text>
+<rect x="78" y="157" width="308" height="2.5" rx="1.2" fill="url(#bar)"/>
+<rect x="83" y="168" width="298" height="238" rx="21" fill="none" stroke="url(#bar)" stroke-width="2.5"/><rect x="87" y="172" width="290" height="230" rx="18" fill="url(#frameBg)"/>
+<rect x="83" y="168" width="298" height="238" rx="21" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" pathLength="1000" stroke-dasharray="70 930" opacity=".95"><animate attributeName="stroke-dashoffset" values="1000;0" dur="6s" repeatCount="indefinite"/></rect>
+<g fill="none" stroke="#0891B2" stroke-width="2" stroke-opacity=".7" stroke-linecap="round"><path d="M101 190 V184 H113"/><path d="M363 190 V184 H351"/><path d="M101 384 V390 H113"/><path d="M363 384 V390 H351"/></g>
+<g clip-path="url(#frame)">
+<g font-size="6.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Courier New',monospace" fill="#020617" stroke="#020617" stroke-width=".4" font-weight="700">
+<text x="91.6" y="183.2" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">             ..,:,.,,::::;;-  +-#+,,,,,:.,-.:,,:         .              </text>
+<text x="91.6" y="189.6" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">             ..,::.,,,::::;-.;--+-.   . =:,....,:,.....,;;..            </text>
+<text x="91.6" y="195.8" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">            ..,,;:.,:::;;;==::-;*=,,;;;.:.,;,*+       =-,,::. ..        </text>
+<text x="91.6" y="202.2" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">           ..,,:;;.:::;;;;=-=+====*+,..:  ,;;-::...,,.,,.,:,,  ..       </text>
+<text x="91.6" y="208.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">           ..,::-;,:;-:;:;--++;+#=##++=-:   :,:=;,:=.--;,,,...          </text>
+<text x="91.6" y="214.8" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ..,,:;=;,;-.,=-;++::::-+--,-#+=:  ,. .,*;   :.:+:.  .,        </text>
+<text x="91.6" y="221.1" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          .,,::;=-:; ,-:,;:::*@+,;;..:..:%=      ,, .,..,:,,.,,.        </text>
+<text x="91.6" y="227.3" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         ..,:::-+--,.-::,,,-+-;;,,+%#+=, .:. .  ..-. .::, .;:::.        </text>
+<text x="91.6" y="233.7" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         ..:::;=+=;.,;;:;:;---,.;;.,,:++.     . ..-%=,..;;,;:,. ..      </text>
+<text x="91.6" y="239.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         ..:::-=+=,,::.,:;:;=:-++=;.   ,:          ,+*;;;;;:. ..,       </text>
+<text x="91.6" y="246.2" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">        ..,:;;-=*=;,.,.,-++=*#+++-,.                ,,=+:,.,.,.;...     </text>
+<text x="91.6" y="252.6" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">        ..,;;;-=*+, ,,==++----:,,                ,;;., =+=-=;- ,,.      </text>
+<text x="91.6" y="258.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">        .,,;;;-=**.,,.-:,,...    ...         .   ..  .;;*%-:,-.:. .     </text>
+<text x="91.6" y="265.1" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">        .,,;;;-=**..,;:.     ,:-;;;::,,,:-;:::       ,-=:,,  +,. .      </text>
+<text x="91.6" y="271.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       ..,,;;;-=**::-=,   .:=*###**#*#+==----;;.    :, .. . ,+:  , .    </text>
+<text x="91.6" y="277.8" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       ..,:;;-==#++:.,.,###%%#%%#%#####***#*=-;-: .,.   ..,::=:,.,...   </text>
+<text x="91.6" y="284.1" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,,:;;-==#=+=   +@*#%@@@@%%**##*+-;:,:;,-@., -++,+*=#,-, . ..    </text>
+<text x="91.6" y="290.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,::;-==+#=;#. :@++#=:,,,=#==+=;.   ..,-%@=  =%-,+;,, -,. ...    </text>
+<text x="91.6" y="296.6" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,:;;-=+*#=,#; ;@**::-  , :*#+=,  =-.+; =#% .++-  .: :+:,  .,    </text>
+<text x="91.6" y="302.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,::;-=+*#=;=@;.@%*-*@;=+,=#@@%, ,==-=-:;-@:.+=+;=;,;;..   ,,    </text>
+<text x="91.6" y="309.2" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,::;-=+*#=:+@%.@%##*+=;:+@##@%;:=-;;;-==-%= -#=-#= , ,,  .,..   </text>
+<text x="91.6" y="315.5" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,::;-=+*#=.#@,,@######%@@%##@%;,-#***#*+-%- -*=-+#+;,:::-:.     </text>
+<text x="91.6" y="321.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       .,,:;;--=#= ;@-,%######%#*#**%%-:,=%##*+=-@;,+=*- ;*;..;;:., .   </text>
+<text x="91.6" y="328.1" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">       ..,:;--=+#+:-%@-**#%%%%#+=*%%@%++-:*#*+=-=%,,+::;::=;;;;:, .     </text>
+<text x="91.6" y="334.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">        ..,,::;;;-=+=@*=**###*=-*@*+@%=.,======-++.=@%%%%%#++=;;:,...   </text>
+<text x="91.6" y="340.8" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ...,,:;--=+*%=*+**+==*@#=;,:   :, ,===-:%@%%#**++=---;::,..   </text>
+<text x="91.6" y="347.0" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ....,:;-=++*@*=+++*+: -=;-;-;,::,,.=+-:-%=%*%@#*++=--;:,,.    </text>
+<text x="91.6" y="353.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ..,:;-==+*#@@%-=+*%;.;:-*+##%=;:=*--;-:,:+=#;=%*===-;;:,..    </text>
+<text x="91.6" y="359.6" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         .,:;---=+*###%#;=+++**@@####*+=;-=;;-;:;=;**++:=+=-=-;;:,.     </text>
+<text x="91.6" y="365.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         .,,:;;-==+**#%*-%-=+++*##+-:,.,;-;,;=: +:-#*+++;=---;;::,.     </text>
+<text x="91.6" y="372.2" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">         ..,:::--==**#*=*@=-=**+####**++++;::, ,#,:#+++=;;--;;::,..     </text>
+<text x="91.6" y="378.5" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ..,::;;-=++++=#@=+*=*#**%%#**++-:.. ,-*;;+#=+==--:;::,,.      </text>
+<text x="91.6" y="384.9" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">          ..,,::;--=*+=**@*:@#=+++##*+*+-,.., +-+++=#-=-=--,;,:,..      </text>
+<text x="91.6" y="391.1" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">            ...;:-;==+-#=#@.;@%+=;;;;::,..,:  %;*+=+#*;+:-;::,,..       </text>
+<text x="91.6" y="397.4" textLength="280.8" lengthAdjust="spacing" xml:space="preserve">            ..,::-;=-=-*=#%#.-%#%*+=*=,:;;;,.-%=#=+;+*;=:-:;:,,.        </text>
+</g>
+<rect x="87" y="172" width="290" height="4" fill="#6366F1" opacity=".22"><animate attributeName="y" values="172;397;172" dur="5s" repeatCount="indefinite"/></rect>
+</g>
+<circle cx="352" cy="192" r="5" fill="#16A34A"><animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="78" y="430" fill="#15803D" font-size="15">~/profile $<tspan fill="#0F172A" dx="8">build --ship</tspan><tspan fill="#0891B2" dx="4">▌<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+<text x="78" y="460" fill="#4338CA" font-size="13">CONTRIBUTION.ACTIVITY</text>
+<rect x="78.0" y="470" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="92.2" y="470" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="106.4" y="470" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="120.6" y="470" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="134.8" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="149.0" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="163.2" y="470" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="177.4" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="191.6" y="470" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="205.8" y="470" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="220.0" y="470" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="234.2" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="248.4" y="470" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="262.6" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="276.8" y="470" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="291.0" y="470" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="305.2" y="470" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="319.4" y="470" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="333.6" y="470" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="347.8" y="470" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="362.0" y="470" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="78.0" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="92.2" y="484" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="106.4" y="484" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="120.6" y="484" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="134.8" y="484" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="149.0" y="484" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="163.2" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="177.4" y="484" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="191.6" y="484" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="205.8" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="220.0" y="484" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="234.2" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="248.4" y="484" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="262.6" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="276.8" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="291.0" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="305.2" y="484" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="319.4" y="484" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="333.6" y="484" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="347.8" y="484" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="362.0" y="484" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="78.0" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="92.2" y="498" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="106.4" y="498" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="120.6" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="134.8" y="498" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="149.0" y="498" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="163.2" y="498" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="177.4" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="191.6" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="205.8" y="498" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="220.0" y="498" width="10.2" height="10" rx="2" fill="#BBF7D0"/>
+<rect x="234.2" y="498" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="248.4" y="498" width="10.2" height="10" rx="2" fill="#86EFAC"/>
+<rect x="262.6" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="276.8" y="498" width="10.2" height="10" rx="2" fill="#4ADE80"/>
+<rect x="291.0" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="305.2" y="498" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="319.4" y="498" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="333.6" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<rect x="347.8" y="498" width="10.2" height="10" rx="2" fill="#16A34A"/>
+<rect x="362.0" y="498" width="10.2" height="10" rx="2" fill="#E2E8F0"/>
+<line x1="421" y1="145" x2="421" y2="495" stroke="#0891B2" stroke-opacity=".3" stroke-width="1.5" stroke-dasharray="4 6"/>
+<circle cx="421" cy="145" r="3" fill="#0891B2"><animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="421" cy="320" r="3" fill="#9333EA"/><circle cx="421" cy="495" r="3" fill="#16A34A"/>
+<rect x="432" y="110" width="674" height="420" rx="20" fill="#FFFFFF" fill-opacity=".78" stroke="#C7D2FE" filter="url(#shadow)" stroke-width="1.2"/>
+<text x="460" y="145" fill="#4338CA" font-size="15">[ SYSTEM.INFO ]</text>
+<rect x="460" y="157" width="618" height="2.5" rx="1.2" fill="url(#bar)"/>
+<text x="460" y="202" fill="url(#nameGrad)" font-size="34" font-weight="800">Yash Agarwal</text>
+<rect x="460" y="214" width="210" height="3" rx="1.5" fill="url(#bar)"><animate attributeName="width" values="50;210;50" dur="6s" repeatCount="indefinite"/></rect>
+<text x="460" y="248" fill="#4338CA" font-size="16" font-weight="700">ROLE</text>
+<text x="600" y="248" fill="#0F172A" font-size="16" opacity="1">Software Engineer<tspan fill="#0891B2" dx="4">▌<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.30;0.333;0.967;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="600" y="248" fill="#0F172A" font-size="16" opacity="0">AI Engineer<tspan fill="#0891B2" dx="4">▌<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.363;0.63;0.667;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="600" y="248" fill="#0F172A" font-size="16" opacity="0">Full Stack Developer<tspan fill="#0891B2" dx="4">▌<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.667;0.697;0.963;1" dur="9s" repeatCount="indefinite"/></text>
+<text x="460" y="284" fill="#64748B" font-size="14">EDUCATION</text><text x="600" y="284" fill="#0F172A" font-size="14" font-weight="700">Final Year B.Tech Information Technology</text>
+<text x="460" y="312" fill="#64748B" font-size="14">COLLEGE</text><text x="600" y="312" fill="#0F172A" font-size="14">JECRC Jaipur • Batch 2027</text>
+<text x="460" y="340" fill="#64748B" font-size="14">LOCATION</text><text x="600" y="340" fill="#0F172A" font-size="14">Jaipur, Rajasthan, India</text>
+<line x1="460" y1="364" x2="1078" y2="364" stroke="#CBD5E1"/><text x="460" y="392" fill="#4338CA" font-size="15">TECH.STACK</text>
+<rect x="460" y="404" width="59" height="28" rx="14" fill="#EA580C" stroke="#EA580C"/><text x="489.5" y="422" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">JAVA</text>
+<rect x="527" y="404" width="67" height="28" rx="14" fill="#0891B2" stroke="#0891B2"/><text x="560.5" y="422" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">REACT</text>
+<rect x="602" y="404" width="75" height="28" rx="14" fill="#2563EB" stroke="#2563EB"/><text x="639.5" y="422" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">PYTHON</text>
+<rect x="685" y="404" width="67" height="28" rx="14" fill="#0284C7" stroke="#0284C7"/><text x="718.5" y="422" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">AZURE</text>
+<rect x="460" y="442" width="106" height="28" rx="14" fill="#EA580C" stroke="#EA580C"/><text x="513.0" y="460" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">TENSORFLOW</text>
+<rect x="574" y="442" width="83" height="28" rx="14" fill="#16A34A" stroke="#16A34A"/><text x="615.5" y="460" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">MONGODB</text>
+<rect x="665" y="442" width="99" height="28" rx="14" fill="#15803D" stroke="#15803D"/><text x="714.5" y="460" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">SPRING BOOT</text>
+<rect x="460" y="480" width="75" height="28" rx="14" fill="#0EA5E9" stroke="#0EA5E9"/><text x="497.5" y="498" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">DOCKER</text>
+<rect x="543" y="480" width="51" height="28" rx="14" fill="#7C3AED" stroke="#7C3AED"/><text x="568.5" y="498" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="700">DSA</text>
+<line x1="775" y1="380" x2="775" y2="508" stroke="#CBD5E1"/>
+<text x="792" y="392" fill="#4338CA" font-size="15">FEATURED.PROJECTS</text>
+<rect x="792" y="404" width="286" height="46" rx="14" fill="#DCFCE7" fill-opacity=".7" stroke="#16A34A"/><text x="810" y="424" fill="#14532D" font-size="14" font-weight="700">WasteCare AI  ↗</text><text x="810" y="441" fill="#15803D" font-size="11">React • Spring Boot • TensorFlow</text>
+<rect x="792" y="462" width="286" height="46" rx="14" fill="#E0F2FE" fill-opacity=".8" stroke="#0891B2"/><text x="810" y="482" fill="#0C4A6E" font-size="14" font-weight="700">ScamShield Voice AI  ↗</text><text x="810" y="499" fill="#0369A1" font-size="11">Voice AI • LLM • React</text>
+<rect x="54" y="546" width="340" height="54" rx="16" fill="#DCFCE7" fill-opacity=".9" stroke="#16A34A" stroke-width="1.5"/><circle cx="78" cy="573" r="5" fill="#16A34A"><animate attributeName="opacity" values="1;.3;1" dur="1.3s" repeatCount="indefinite"/></circle><text x="96" y="569" fill="#14532D" font-size="13">OPEN TO WORK • 2027</text><text x="96" y="586" fill="#15803D" font-size="11">SWE • AI/ML • FULL STACK INTERNSHIPS</text>
+<rect x="410" y="546" width="340" height="54" rx="16" fill="#E0F2FE" fill-opacity=".9" stroke="#0891B2" stroke-width="1.5"/><circle cx="434" cy="573" r="5" fill="#0891B2"/><text x="452" y="569" fill="#0C4A6E" font-size="13">500+ LEETCODE PROBLEMS</text><text x="452" y="586" fill="#0369A1" font-size="11">Java • DSA • Codeforces</text>
+<rect x="766" y="546" width="340" height="54" rx="16" fill="#EDE9FE" fill-opacity=".9" stroke="#8B5CF6" stroke-width="1.5"/><circle cx="790" cy="573" r="5" fill="#8B5CF6"/><text x="808" y="569" fill="#4C1D95" font-size="13">CERTIFIED</text><text x="808" y="586" fill="#6D28D9" font-size="11">AZ-900 • DP-900 • Oracle AI</text>
+<line x1="54" y1="616" x2="1106" y2="616" stroke="#CBD5E1"/>
+<path d="M54 616 L254 616" stroke="#0891B2" stroke-width="2" stroke-opacity=".5"><animate attributeName="stroke-opacity" values=".2;.8;.2" dur="4s" repeatCount="indefinite"/></path>
+<text x="54" y="640" fill="#475569" font-size="14">Building intelligent systems, one commit at a time.</text>
+<text x="1106" y="640" text-anchor="end" fill="#4338CA" font-size="12">github.com/Yash-Agarwal-4a5h  •  BATCH 2027</text>
+</g>
+<rect x="10" y="10" width="1260" height="770" rx="24" fill="none" stroke="url(#neon)" stroke-width="3.5"><animate attributeName="stroke-opacity" values=".6;1;.6" dur="5s" repeatCount="indefinite"/></rect>
+<g fill="#4338CA" fill-opacity=".85" font-size="11"><text x="78" y="36">// universe.init()  ·  status: exploring</text><text x="1202" y="36" text-anchor="end">git log --oneline --stars</text><text x="78" y="774">$ ./explore --galaxy --user=yash</text><text x="1202" y="774" text-anchor="end">26.9124°N 75.7873°E  ·  Jaipur, IN</text></g>
+<g fill="#4338CA" fill-opacity=".5" font-size="10" text-anchor="middle"><text transform="translate(30,395) rotate(-90)">const dream = () =&gt; build(ship());</text><text transform="translate(1252,395) rotate(90)">while (alive) { learn(); build(); ship(); }</text></g>
 </svg>
